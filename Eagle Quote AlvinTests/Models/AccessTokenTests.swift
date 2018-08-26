@@ -11,6 +11,8 @@ import Foundation
 import Quick
 import Nimble
 
+@testable import Eagle_Quote_Alvin
+
 class AccessTokenTests: QuickSpec {
   
   override func spec() {
