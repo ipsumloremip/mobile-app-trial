@@ -99,6 +99,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7230CB90213264B1000176D5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				72C4A4DA21325DDA005383F0 /* Assets.xcassets */,
+				72C4A4DF21325DDA005383F0 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		72C4A4C721325DDA005383F0 = {
 			isa = PBXGroup;
 			children = (
@@ -127,9 +136,8 @@
 				72C4A4D321325DDA005383F0 /* AppDelegate.swift */,
 				72C4A4D521325DDA005383F0 /* ViewController.swift */,
 				72C4A4D721325DDA005383F0 /* Main.storyboard */,
-				72C4A4DA21325DDA005383F0 /* Assets.xcassets */,
 				72C4A4DC21325DDA005383F0 /* LaunchScreen.storyboard */,
-				72C4A4DF21325DDA005383F0 /* Info.plist */,
+				7230CB90213264B1000176D5 /* Resources */,
 			);
 			path = "Eagle Quote Alvin";
 			sourceTree = "<group>";
@@ -594,7 +602,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DJYRMWGS2W;
-				INFOPLIST_FILE = "Eagle Quote Alvin/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Eagle Quote Alvin/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.blackfin.EagleQuoteAlvin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -612,7 +620,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DJYRMWGS2W;
-				INFOPLIST_FILE = "Eagle Quote Alvin/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Eagle Quote Alvin/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.blackfin.EagleQuoteAlvin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
