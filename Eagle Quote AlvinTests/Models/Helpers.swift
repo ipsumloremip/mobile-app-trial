@@ -124,21 +124,21 @@ extension DummyData {
 }
 
 extension DummyData {
-  
+
   struct Quote: StubbedModelType {
-    
+
     let quoteId = 15101
     let createdAt = "2018-08-24T07:40:43.6567811Z"
     let clients = [DummyData.Client().object]
-    
+
     var json: [String: Codable] {
       return [
         "quoteId": quoteId,
         "createdAt": createdAt,
-        "clients": [ DummyData.Client().json ]
+        "clients": [DummyData.Client().json]
       ]
     }
-    
+
     var object: Eagle_Quote_Alvin.Quote {
       return Eagle_Quote_Alvin.Quote(
         quoteId: quoteId,
@@ -146,6 +146,36 @@ extension DummyData {
         clients: clients
       )
     }
-    
+
+  }
+}
+
+extension DummyData {
+
+  struct EndpointPaging: StubbedModelType {
+
+    let page = 1
+    let perPage = 20
+    let size = 3
+    let records = 3
+
+    var json: [String: Codable] {
+      return [
+        "page": page,
+        "perPage": perPage,
+        "size": size,
+        "records": records
+      ]
+    }
+
+    var object: Eagle_Quote_Alvin.EndpointPaging {
+      return Eagle_Quote_Alvin.EndpointPaging(
+        page: page,
+        perPage: perPage,
+        size: size,
+        records: records
+      )
+    }
+
   }
 }
