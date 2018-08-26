@@ -263,6 +263,7 @@ extension DummyData {
     
   }
 }
+
 extension DummyData {
   
   struct User: StubbedModelType {
@@ -293,6 +294,33 @@ extension DummyData {
         fullName: fullName,
         createdAt: createdAt,
         updatedAt: updatedAt
+      )
+    }
+    
+  }
+}
+
+extension DummyData {
+  
+  struct LoginResult: StubbedModelType {
+    
+    let response = DummyData.EndpointResponse().object
+    let authorization = DummyData.Authorization().object
+    let user = DummyData.User().object
+    
+    var json: [String: Codable] {
+      return [
+        "response": DummyData.EndpointResponse().json,
+        "authorization": DummyData.Authorization().json,
+        "user": DummyData.User().json
+      ]
+    }
+    
+    var object: Eagle_Quote_Alvin.LoginResult {
+      return Eagle_Quote_Alvin.LoginResult(
+        response: response,
+        authorization: authorization,
+        user: user
       )
     }
     
