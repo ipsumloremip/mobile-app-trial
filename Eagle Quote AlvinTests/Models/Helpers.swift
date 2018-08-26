@@ -233,3 +233,33 @@ extension DummyData {
     
   }
 }
+
+extension DummyData {
+  
+  struct Authorization: StubbedModelType {
+    
+    let token = DummyData.AccessToken().token
+    let validTo = "2018-08-29T05:28:39Z"
+    let sessionToken = DummyData.AccessToken().object
+    let refreshToken = DummyData.AccessToken().object
+    
+    var json: [String: Codable] {
+      return [
+        "token": token,
+        "validTo": validTo,
+        "sessionToken": DummyData.AccessToken().json,
+        "refreshToken": DummyData.AccessToken().json,
+      ]
+    }
+    
+    var object: Eagle_Quote_Alvin.Authorization {
+      return Eagle_Quote_Alvin.Authorization(
+        token: token,
+        validTo: validTo,
+        sessionToken: sessionToken,
+        refreshToken: refreshToken
+      )
+    }
+    
+  }
+}
