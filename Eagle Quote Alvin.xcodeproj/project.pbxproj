@@ -45,6 +45,7 @@
 		7230CBD72132659E000176D5 /* SFText-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7230CBAC2132656D000176D5 /* SFText-RegularItalic.otf */; };
 		7230CBD82132659E000176D5 /* SFText-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7230CBA62132656B000176D5 /* SFText-Semibold.otf */; };
 		7230CBD92132659E000176D5 /* SFText-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7230CB982132656A000176D5 /* SFText-SemiboldItalic.otf */; };
+		725CFEF321328180004C60C7 /* Premiums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725CFEF221328180004C60C7 /* Premiums.swift */; };
 		725EAD432132767F000F4676 /* AccessTokenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725EAD422132767F000F4676 /* AccessTokenTests.swift */; };
 		725EAD4521327801000F4676 /* AccessToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725EAD4421327801000F4676 /* AccessToken.swift */; };
 		7264D472213280A700A35795 /* PremiumsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7264D471213280A700A35795 /* PremiumsTests.swift */; };
@@ -115,6 +116,7 @@
 		7230CBB32132656F000176D5 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
 		7230CBB42132656F000176D5 /* SFText-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFText-Heavy.otf"; sourceTree = "<group>"; };
 		7230CBB52132656F000176D5 /* SFText-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFText-MediumItalic.otf"; sourceTree = "<group>"; };
+		725CFEF221328180004C60C7 /* Premiums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Premiums.swift; sourceTree = "<group>"; };
 		725EAD422132767F000F4676 /* AccessTokenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessTokenTests.swift; sourceTree = "<group>"; };
 		725EAD4421327801000F4676 /* AccessToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessToken.swift; sourceTree = "<group>"; };
 		7264D471213280A700A35795 /* PremiumsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumsTests.swift; sourceTree = "<group>"; };
@@ -234,6 +236,7 @@
 			isa = PBXGroup;
 			children = (
 				725EAD4421327801000F4676 /* AccessToken.swift */,
+				725CFEF221328180004C60C7 /* Premiums.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -609,6 +612,7 @@
 				72C4A4D621325DDA005383F0 /* ViewController.swift in Sources */,
 				72C4A4D421325DDA005383F0 /* AppDelegate.swift in Sources */,
 				725EAD4521327801000F4676 /* AccessToken.swift in Sources */,
+				725CFEF321328180004C60C7 /* Premiums.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
