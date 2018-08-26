@@ -2,6 +2,46 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>OpenSans-Bold.ttf</string>
+		<string>OpenSans-BoldItalic.ttf</string>
+		<string>OpenSans-ExtraBold.ttf</string>
+		<string>OpenSans-ExtraBoldItalic.ttf</string>
+		<string>OpenSans-Italic.ttf</string>
+		<string>OpenSans-Light.ttf</string>
+		<string>OpenSans-LightItalic.ttf</string>
+		<string>OpenSans-Regular.ttf</string>
+		<string>OpenSans-Bold.ttf</string>
+		<string>OpenSans-Semibold.ttf</string>
+		<string>OpenSans-SemiboldItalic.ttf</string>
+		<string>SFDisplay-Black.otf</string>
+		<string>SFDisplay-Bold.otf</string>
+		<string>SFDisplay-Heavy.otf</string>
+		<string>SFDisplay-Light.otf</string>
+		<string>SFDisplay-Medium.otf</string>
+		<string>SFDisplay-Regular.otf</string>
+		<string>SFDisplay-Semibold.otf</string>
+		<string>SFDisplay-Thin.otf</string>
+		<string>SFDisplay-UltraLight.otf</string>
+		<string>SFMono-Bold.otf</string>
+		<string>SFMono-Heavy.otf</string>
+		<string>SFMono-Light.otf</string>
+		<string>SFMono-Medium.otf</string>
+		<string>SFMono-Regular.otf</string>
+		<string>SFText-Bold.otf</string>
+		<string>SFText-BoldItalic.otf</string>
+		<string>SFText-Heavy.otf</string>
+		<string>SFText-HeavyItalic.otf</string>
+		<string>SFText-Light.otf</string>
+		<string>SFText-LightItalic.otf</string>
+		<string>SFText-Medium.otf</string>
+		<string>SFText-MediumItalic.otf</string>
+		<string>SFText-Regular.otf</string>
+		<string>SFText-RegularItalic.otf</string>
+		<string>SFText-Semibold.otf</string>
+		<string>SFText-SemiboldItalic.otf</string>
+	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
