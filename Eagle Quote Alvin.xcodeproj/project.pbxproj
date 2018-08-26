@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72C4A4D421325DDA005383F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C4A4D321325DDA005383F0 /* AppDelegate.swift */; };
+		72C4A4D621325DDA005383F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C4A4D521325DDA005383F0 /* ViewController.swift */; };
+		72C4A4D921325DDA005383F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72C4A4D721325DDA005383F0 /* Main.storyboard */; };
+		72C4A4DB21325DDA005383F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72C4A4DA21325DDA005383F0 /* Assets.xcassets */; };
+		72C4A4DE21325DDA005383F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72C4A4DC21325DDA005383F0 /* LaunchScreen.storyboard */; };
+		72C4A4E921325DDA005383F0 /* Eagle_Quote_AlvinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C4A4E821325DDA005383F0 /* Eagle_Quote_AlvinTests.swift */; };
+		72C4A4F421325DDA005383F0 /* Eagle_Quote_AlvinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C4A4F321325DDA005383F0 /* Eagle_Quote_AlvinUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72C4A4E521325DDA005383F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72C4A4C821325DDA005383F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72C4A4CF21325DDA005383F0;
+			remoteInfo = "Eagle Quote Alvin";
+		};
+		72C4A4F021325DDA005383F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72C4A4C821325DDA005383F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72C4A4CF21325DDA005383F0;
+			remoteInfo = "Eagle Quote Alvin";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		72C4A4D021325DDA005383F0 /* Eagle Quote Alvin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eagle Quote Alvin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72C4A4D321325DDA005383F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		72C4A4D521325DDA005383F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		72C4A4D821325DDA005383F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		72C4A4DA21325DDA005383F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72C4A4DD21325DDA005383F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		72C4A4DF21325DDA005383F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72C4A4E421325DDA005383F0 /* Eagle Quote AlvinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eagle Quote AlvinTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72C4A4E821325DDA005383F0 /* Eagle_Quote_AlvinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eagle_Quote_AlvinTests.swift; sourceTree = "<group>"; };
+		72C4A4EA21325DDA005383F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72C4A4EF21325DDA005383F0 /* Eagle Quote AlvinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eagle Quote AlvinUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72C4A4F321325DDA005383F0 /* Eagle_Quote_AlvinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eagle_Quote_AlvinUITests.swift; sourceTree = "<group>"; };
+		72C4A4F521325DDA005383F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72C4A4CD21325DDA005383F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72C4A4E121325DDA005383F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72C4A4EC21325DDA005383F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72C4A4C721325DDA005383F0 = {
+			isa = PBXGroup;
+			children = (
+				72C4A4D221325DDA005383F0 /* Eagle Quote Alvin */,
+				72C4A4E721325DDA005383F0 /* Eagle Quote AlvinTests */,
+				72C4A4F221325DDA005383F0 /* Eagle Quote AlvinUITests */,
+				72C4A4D121325DDA005383F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72C4A4D121325DDA005383F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72C4A4D021325DDA005383F0 /* Eagle Quote Alvin.app */,
+				72C4A4E421325DDA005383F0 /* Eagle Quote AlvinTests.xctest */,
+				72C4A4EF21325DDA005383F0 /* Eagle Quote AlvinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72C4A4D221325DDA005383F0 /* Eagle Quote Alvin */ = {
+			isa = PBXGroup;
+			children = (
+				72C4A4D321325DDA005383F0 /* AppDelegate.swift */,
+				72C4A4D521325DDA005383F0 /* ViewController.swift */,
+				72C4A4D721325DDA005383F0 /* Main.storyboard */,
+				72C4A4DA21325DDA005383F0 /* Assets.xcassets */,
+				72C4A4DC21325DDA005383F0 /* LaunchScreen.storyboard */,
+				72C4A4DF21325DDA005383F0 /* Info.plist */,
+			);
+			path = "Eagle Quote Alvin";
+			sourceTree = "<group>";
+		};
+		72C4A4E721325DDA005383F0 /* Eagle Quote AlvinTests */ = {
+			isa = PBXGroup;
+			children = (
+				72C4A4E821325DDA005383F0 /* Eagle_Quote_AlvinTests.swift */,
+				72C4A4EA21325DDA005383F0 /* Info.plist */,
+			);
+			path = "Eagle Quote AlvinTests";
+			sourceTree = "<group>";
+		};
+		72C4A4F221325DDA005383F0 /* Eagle Quote AlvinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				72C4A4F321325DDA005383F0 /* Eagle_Quote_AlvinUITests.swift */,
+				72C4A4F521325DDA005383F0 /* Info.plist */,
+			);
+			path = "Eagle Quote AlvinUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72C4A4CF21325DDA005383F0 /* Eagle Quote Alvin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72C4A4F821325DDA005383F0 /* Build configuration list for PBXNativeTarget "Eagle Quote Alvin" */;
+			buildPhases = (
+				72C4A4CC21325DDA005383F0 /* Sources */,
+				72C4A4CD21325DDA005383F0 /* Frameworks */,
+				72C4A4CE21325DDA005383F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Eagle Quote Alvin";
+			productName = "Eagle Quote Alvin";
+			productReference = 72C4A4D021325DDA005383F0 /* Eagle Quote Alvin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		72C4A4E321325DDA005383F0 /* Eagle Quote AlvinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72C4A4FB21325DDA005383F0 /* Build configuration list for PBXNativeTarget "Eagle Quote AlvinTests" */;
+			buildPhases = (
+				72C4A4E021325DDA005383F0 /* Sources */,
+				72C4A4E121325DDA005383F0 /* Frameworks */,
+				72C4A4E221325DDA005383F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72C4A4E621325DDA005383F0 /* PBXTargetDependency */,
+			);
+			name = "Eagle Quote AlvinTests";
+			productName = "Eagle Quote AlvinTests";
+			productReference = 72C4A4E421325DDA005383F0 /* Eagle Quote AlvinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		72C4A4EE21325DDA005383F0 /* Eagle Quote AlvinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72C4A4FE21325DDA005383F0 /* Build configuration list for PBXNativeTarget "Eagle Quote AlvinUITests" */;
+			buildPhases = (
+				72C4A4EB21325DDA005383F0 /* Sources */,
+				72C4A4EC21325DDA005383F0 /* Frameworks */,
+				72C4A4ED21325DDA005383F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72C4A4F121325DDA005383F0 /* PBXTargetDependency */,
+			);
+			name = "Eagle Quote AlvinUITests";
+			productName = "Eagle Quote AlvinUITests";
+			productReference = 72C4A4EF21325DDA005383F0 /* Eagle Quote AlvinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72C4A4C821325DDA005383F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = BlackFin;
+				TargetAttributes = {
+					72C4A4CF21325DDA005383F0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					72C4A4E321325DDA005383F0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 72C4A4CF21325DDA005383F0;
+					};
+					72C4A4EE21325DDA005383F0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 72C4A4CF21325DDA005383F0;
+					};
+				};
+			};
+			buildConfigurationList = 72C4A4CB21325DDA005383F0 /* Build configuration list for PBXProject "Eagle Quote Alvin" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72C4A4C721325DDA005383F0;
+			productRefGroup = 72C4A4D121325DDA005383F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72C4A4CF21325DDA005383F0 /* Eagle Quote Alvin */,
+				72C4A4E321325DDA005383F0 /* Eagle Quote AlvinTests */,
+				72C4A4EE21325DDA005383F0 /* Eagle Quote AlvinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72C4A4CE21325DDA005383F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72C4A4DE21325DDA005383F0 /* LaunchScreen.storyboard in Resources */,
+				72C4A4DB21325DDA005383F0 /* Assets.xcassets in Resources */,
+				72C4A4D921325DDA005383F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72C4A4E221325DDA005383F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72C4A4ED21325DDA005383F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72C4A4CC21325DDA005383F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72C4A4D621325DDA005383F0 /* ViewController.swift in Sources */,
+				72C4A4D421325DDA005383F0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72C4A4E021325DDA005383F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72C4A4E921325DDA005383F0 /* Eagle_Quote_AlvinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72C4A4EB21325DDA005383F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72C4A4F421325DDA005383F0 /* Eagle_Quote_AlvinUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72C4A4E621325DDA005383F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72C4A4CF21325DDA005383F0 /* Eagle Quote Alvin */;
+			targetProxy = 72C4A4E521325DDA005383F0 /* PBXContainerItemProxy */;
+		};
+		72C4A4F121325DDA005383F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72C4A4CF21325DDA005383F0 /* Eagle Quote Alvin */;
+			targetProxy = 72C4A4F021325DDA005383F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		72C4A4D721325DDA005383F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72C4A4D821325DDA005383F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		72C4A4DC21325DDA005383F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72C4A4DD21325DDA005383F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72C4A4F621325DDA005383F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		72C4A4F721325DDA005383F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72C4A4F921325DDA005383F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DJYRMWGS2W;
+				INFOPLIST_FILE = "Eagle Quote Alvin/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blackfin.EagleQuoteAlvin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72C4A4FA21325DDA005383F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DJYRMWGS2W;
+				INFOPLIST_FILE = "Eagle Quote Alvin/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blackfin.EagleQuoteAlvin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		72C4A4FC21325DDA005383F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DJYRMWGS2W;
+				INFOPLIST_FILE = "Eagle Quote AlvinTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blackfin.Eagle-Quote-AlvinTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eagle Quote Alvin.app/Eagle Quote Alvin";
+			};
+			name = Debug;
+		};
+		72C4A4FD21325DDA005383F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DJYRMWGS2W;
+				INFOPLIST_FILE = "Eagle Quote AlvinTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blackfin.Eagle-Quote-AlvinTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eagle Quote Alvin.app/Eagle Quote Alvin";
+			};
+			name = Release;
+		};
+		72C4A4FF21325DDA005383F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DJYRMWGS2W;
+				INFOPLIST_FILE = "Eagle Quote AlvinUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blackfin.Eagle-Quote-AlvinUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Eagle Quote Alvin";
+			};
+			name = Debug;
+		};
+		72C4A50021325DDA005383F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DJYRMWGS2W;
+				INFOPLIST_FILE = "Eagle Quote AlvinUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blackfin.Eagle-Quote-AlvinUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Eagle Quote Alvin";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72C4A4CB21325DDA005383F0 /* Build configuration list for PBXProject "Eagle Quote Alvin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72C4A4F621325DDA005383F0 /* Debug */,
+				72C4A4F721325DDA005383F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72C4A4F821325DDA005383F0 /* Build configuration list for PBXNativeTarget "Eagle Quote Alvin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72C4A4F921325DDA005383F0 /* Debug */,
+				72C4A4FA21325DDA005383F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72C4A4FB21325DDA005383F0 /* Build configuration list for PBXNativeTarget "Eagle Quote AlvinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72C4A4FC21325DDA005383F0 /* Debug */,
+				72C4A4FD21325DDA005383F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72C4A4FE21325DDA005383F0 /* Build configuration list for PBXNativeTarget "Eagle Quote AlvinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72C4A4FF21325DDA005383F0 /* Debug */,
+				72C4A50021325DDA005383F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72C4A4C821325DDA005383F0 /* Project object */;
+}
