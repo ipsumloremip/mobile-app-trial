@@ -206,3 +206,30 @@ extension DummyData {
 
   }
 }
+
+extension DummyData {
+  
+  struct QuotesResult: StubbedModelType {
+    
+    let quotes = [ DummyData.Quote().object ]
+    let paging = DummyData.EndpointPaging().object
+    let response = DummyData.EndpointResponse().object
+    
+    var json: [String: Codable] {
+      return [
+        "quotes": [ DummyData.Quote().json ],
+        "paging": DummyData.EndpointPaging().json,
+        "response": DummyData.EndpointResponse().json
+      ]
+    }
+    
+    var object: Eagle_Quote_Alvin.QuotesResult {
+      return Eagle_Quote_Alvin.QuotesResult(
+        quotes: quotes,
+        paging: paging,
+        response: response
+      )
+    }
+    
+  }
+}
