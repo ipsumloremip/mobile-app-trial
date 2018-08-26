@@ -20,16 +20,8 @@ class QuoteTests: QuickSpec {
 
     describe("A quote model") {
 
-      let quoteId = 15101
-      let createdAt = "2018-08-24T07:40:43.6567811Z"
-      let clients = [DummyData.Client().object]
-
-      let quote = Quote(
-        quoteId: quoteId,
-        createdAt: createdAt,
-        clients: clients
-      )
-
+      let quote = DummyData.Quote().object
+      
       context("after being initialized") {
 
         it("can be encoded") {
@@ -57,11 +49,7 @@ class QuoteTests: QuickSpec {
 
       it("can be decoded from JSON data") {
 
-        let json: [String: Codable] = [
-          "quoteId": quoteId,
-          "createdAt": createdAt,
-          "clients": [ DummyData.Client().json ]
-        ]
+        let json = DummyData.Quote().json
 
         let jsonData = try! JSONSerialization.data(withJSONObject: json, options: .prettyPrinted)
 
