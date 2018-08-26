@@ -8,10 +8,20 @@
 
 import Foundation
 
+import Timepiece
+
 struct Quote: Codable {
   
   let quoteId: Int
   let createdAt: String
   let clients: [Client]
+  
+}
+
+extension Quote {
+  
+  var createdAtDate: Date? {
+    return createdAt.date(inFormat: "yyyy-MM-dd'T'HH:mm:ss.SSSZZZZZ")
+  }
   
 }

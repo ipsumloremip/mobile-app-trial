@@ -10,6 +10,7 @@ import Foundation
 
 import Quick
 import Nimble
+import Timepiece
 
 @testable import Eagle_Quote_Alvin
 
@@ -37,6 +38,19 @@ class QuoteTests: QuickSpec {
 
           expect(encoded).toNot(beNil())
 
+        }
+        
+        it("can represent createdAt as Date") {
+          
+          expect(quote.createdAtDate).toNot(beNil())
+          
+        }
+        
+        it("should represent createdAt as the correct Date") {
+          
+          let string = quote.createdAtDate!.stringIn(dateStyle: .full, timeStyle: .full)
+          expect(string == quote.createdAt).toNot(beNil())
+          
         }
 
       }
