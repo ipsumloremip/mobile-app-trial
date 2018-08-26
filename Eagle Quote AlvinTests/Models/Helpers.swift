@@ -263,3 +263,38 @@ extension DummyData {
     
   }
 }
+extension DummyData {
+  
+  struct User: StubbedModelType {
+    
+    let id = "f30cb301-0dea-4253-85f5-006039cac9e4"
+    let email = "alvinjaycosare@gmail.com"
+    let fspr = "FSP123456"
+    let fullName = "Alvin"
+    let createdAt = "2018-08-25T08:55:47.5446334"
+    let updatedAt = "2018-08-25T08:55:47.5446338"
+    
+    var json: [String: Codable] {
+      return [
+        "id": id,
+        "email": email,
+        "fspr": fspr,
+        "fullName": fullName,
+        "createdAt": createdAt,
+        "updatedAt": updatedAt,
+      ]
+    }
+    
+    var object: Eagle_Quote_Alvin.User {
+      return Eagle_Quote_Alvin.User(
+        id: id,
+        email: email,
+        fspr: fspr,
+        fullName: fullName,
+        createdAt: createdAt,
+        updatedAt: updatedAt
+      )
+    }
+    
+  }
+}
