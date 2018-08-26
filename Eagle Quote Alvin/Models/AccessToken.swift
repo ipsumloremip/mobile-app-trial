@@ -10,4 +10,7 @@ import Foundation
 
 struct AccessToken {
   
+  let token: String
+  let expiredAt: String
+  
 }
