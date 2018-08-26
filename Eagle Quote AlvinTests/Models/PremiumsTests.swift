@@ -19,13 +19,10 @@ class PremiumsTests: QuickSpec {
     
     describe("A premiums model") {
       
-      let testMinTotalPremium: Double = 0
-      let testMaxTotalPremium: Double = 0
-      
-      let premiums = Premiums(minTotalPremium: testMinTotalPremium, maxTotalPremium: testMaxTotalPremium)
+      let premiums = DummyData.Premiums().object
       
       context("after being initialized") {
-        
+          
         it("can be encoded") {
           
           let encodedPremiums = try! JSONEncoder().encode(premiums)
@@ -38,14 +35,11 @@ class PremiumsTests: QuickSpec {
       
       it("can be decoded from JSON data") {
         
-        let testJSON = [
-          "minTotalPremium": testMinTotalPremium,
-          "maxTotalPremium": testMaxTotalPremium
-        ]
+        let json = DummyData.Premiums().json
         
-        let testJsonData = try! JSONSerialization.data(withJSONObject: testJSON, options: .prettyPrinted)
+        let jsonData = try! JSONSerialization.data(withJSONObject: json, options: .prettyPrinted)
         
-        let decodedPremiums = try! JSONDecoder().decode(Premiums.self, from: testJsonData)
+        let decodedPremiums = try! JSONDecoder().decode(Premiums.self, from: jsonData)
         
         expect(decodedPremiums).toNot(beNil())
         

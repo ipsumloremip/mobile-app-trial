@@ -19,30 +19,8 @@ class ClientTests: QuickSpec {
     
     describe("A client model") {
       
-      let id = 0
-      let name = "Kiki"
-      let gender = "M"
-      let age = 23
-      let occupationId = 1
-      let employedStatus = "Employed"
-      let isSmoker = false
-      let isChild = false
-      let isPrimary = true
-      let premiums = Premiums(minTotalPremium: 111.29, maxTotalPremium: 138.37)
-      
-      let client = Client(
-        id: id,
-        name: name,
-        gender: gender,
-        age: age,
-        occupationId: occupationId,
-        employedStatus: employedStatus,
-        isSmoker: isSmoker,
-        isChild: isChild,
-        isPrimary: isPrimary,
-        premiums: premiums
-      )
-      
+      let client = DummyData.Client().object
+
       context("after being initialized") {
         
         it("can be encoded") {
@@ -57,23 +35,9 @@ class ClientTests: QuickSpec {
       
       it("can be decoded from JSON data") {
         
-        let json: [String: Decodable] = [
-          "id": id,
-          "name": name,
-          "gender": gender,
-          "age": age,
-          "occupationId": occupationId,
-          "employedStatus": employedStatus,
-          "isSmoker": isSmoker,
-          "isChild": isChild,
-          "isPrimary": isPrimary,
-          "premiums": [
-            "minTotalPremium": 111.29,
-            "maxTotalPremium": 138.37
-          ]
-        ]
+        let json = DummyData.Client().json
         
-        let jsonData = try! JSONSerialization.data(withJSONObject: json, options: [])
+        let jsonData = try! JSONSerialization.data(withJSONObject: json, options: .prettyPrinted)
         
         let decoded = try! JSONDecoder().decode(Client.self, from: jsonData)
         

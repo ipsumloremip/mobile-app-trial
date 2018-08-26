@@ -19,10 +19,7 @@ class AccessTokenTests: QuickSpec {
     
     describe("An access token model") {
       
-      let testToken = ""
-      let testExpiredAt = ""
-    
-      let accessToken = AccessToken(token: testToken, expiredAt: testExpiredAt)
+      let accessToken = DummyData.AccessToken().object
     
       context("after being initialized") {
        
@@ -38,14 +35,11 @@ class AccessTokenTests: QuickSpec {
       
       it("can be decoded from JSON data") {
         
-        let testJSON = [
-          "token": testToken,
-          "expiredAt": testExpiredAt
-        ]
+        let json = DummyData.AccessToken().json
         
-        let testJsonData = try! JSONSerialization.data(withJSONObject: testJSON, options: .prettyPrinted)
+        let jsonData = try! JSONSerialization.data(withJSONObject: json, options: .prettyPrinted)
         
-        let decodedAccessToken = try! JSONDecoder().decode(AccessToken.self, from: testJsonData)
+        let decodedAccessToken = try! JSONDecoder().decode(AccessToken.self, from: jsonData)
         
         expect(decodedAccessToken).toNot(beNil())
         
