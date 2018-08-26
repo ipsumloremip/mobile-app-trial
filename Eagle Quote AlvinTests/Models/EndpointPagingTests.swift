@@ -19,17 +19,7 @@ class EndpointPagingTests: QuickSpec {
 
     describe("A endpoint paging model") {
 
-      let page = 1
-      let perPage = 20
-      let size = 3
-      let records = 3
-
-      let paging = EndpointPaging(
-        page: page,
-        perPage: perPage,
-        size: size,
-        records: records
-      )
+      let paging = DummyData.EndpointPaging().object
 
       context("after being initialized") {
 
@@ -45,12 +35,7 @@ class EndpointPagingTests: QuickSpec {
 
       it("can be decoded from JSON data") {
 
-        let json = [
-          "page": page,
-          "perPage": perPage,
-          "size": size,
-          "records": records
-        ]
+        let json = DummyData.EndpointPaging().json
 
         let jsonData = try! JSONSerialization.data(withJSONObject: json, options: .prettyPrinted)
 
