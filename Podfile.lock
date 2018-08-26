@@ -25,37 +25,35 @@ PODS:
     - MaterialComponents/private/Math
   - MDFInternationalization (1.1.0)
   - MDFTextAccessibility (1.2.0)
-  - Moya/Core (9.0.0):
+  - Moya/Core (11.0.2):
     - Alamofire (~> 4.1)
     - Result (~> 3.0)
-  - Moya/RxSwift (9.0.0):
+  - Moya/RxSwift (11.0.2):
     - Moya/Core
-    - RxSwift (~> 3.3)
+    - RxSwift (~> 4.0)
   - Nimble (7.1.3)
-  - PluggableApplicationDelegate (0.1.2)
+  - PluggableApplicationDelegate (0.2.0)
   - Quick (1.3.1)
   - Result (3.2.4)
-  - RxCocoa (3.4.1):
-    - RxSwift (~> 3.4)
-  - RxOptional (3.2.0):
-    - RxCocoa
-    - RxSwift
-  - RxSwift (3.4.1)
-  - SnapKit (3.2.0)
-  - SwiftDate (4.3.0)
+  - RxCocoa (4.2.0):
+    - RxSwift (~> 4.0)
+  - RxOptional (3.5.0):
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxSwift (4.2.0)
+  - SnapKit (4.0.0)
 
 DEPENDENCIES:
-  - KeychainAccess (~> 3.1)
+  - KeychainAccess
   - MaterialComponents/Buttons
   - Moya/RxSwift
   - Nimble
-  - PluggableApplicationDelegate (~> 0.1.1)
+  - PluggableApplicationDelegate
   - Quick
-  - RxCocoa (~> 3.4.0)
-  - RxOptional (= 3.2.0)
-  - RxSwift (~> 3.4.0)
-  - SnapKit (~> 3.2.0)
-  - SwiftDate (~> 4.3.0)
+  - RxCocoa
+  - RxOptional
+  - RxSwift
+  - SnapKit
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -73,7 +71,6 @@ SPEC REPOS:
     - RxOptional
     - RxSwift
     - SnapKit
-    - SwiftDate
 
 SPEC CHECKSUMS:
   Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
@@ -81,17 +78,16 @@ SPEC CHECKSUMS:
   MaterialComponents: bd1ebf279041919605fe6133a4173db4148ec1cd
   MDFInternationalization: b5b8626628abf026e630e5ebaeee563037712cbb
   MDFTextAccessibility: 94098925e0853551c5a311ce7c1ecefbe297cdb6
-  Moya: cf5e6ee93af526532f92614004b8ad2ea60fd845
+  Moya: a725035953bc1c0eb1be505ab903984501d82440
   Nimble: 2839b01d1b31f6a6a7777a221f0d91cf52e8e27b
-  PluggableApplicationDelegate: 4d988b3c08567b92b8ea83d08022ae16e63a925d
+  PluggableApplicationDelegate: 6b55523e4adb5b4f55c97a2d3f107990656caa4a
   Quick: d17304d58d0d169dd0bd1c6e5c28e3318de32a1a
   Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
-  RxCocoa: a8a5f1d061d0043e28f56976829f31ce63e8eb09
-  RxOptional: d2d6a68064bc16b4801332c40663967f481b0234
-  RxSwift: 656f8fbeca5bc372121a72d9ebdd3cd3bc0ffade
-  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
-  SwiftDate: 64e2312711c5c506f7b51794308ce91f19eb494a
+  RxCocoa: 0b54909c902e1e581212a03e690bbd94032d8baa
+  RxOptional: bd32ff8ca9df4177683d56ffeb618a9d4d5d5cad
+  RxSwift: 99e10317ddfcc7fbe01356aafd118fde4a0be104
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
 
-PODFILE CHECKSUM: 6538116057354df5873b18ffe0f4a64528f236e0
+PODFILE CHECKSUM: 0e5d3051c3c3de2d0deeb2faef1cd96354f34fb2
 
 COCOAPODS: 1.5.3

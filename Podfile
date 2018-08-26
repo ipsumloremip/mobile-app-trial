@@ -8,21 +8,21 @@ target 'Eagle Quote Alvin' do
   # Pods for Eagle Quote Alvin
   
   # UI
-  pod 'SnapKit', '~> 3.2.0'
+  pod 'SnapKit'
   pod 'MaterialComponents/Buttons'
   
   # Rx
-  pod 'RxCocoa', '~> 3.4.0'
-  pod 'RxSwift', '~> 3.4.0'
-  pod 'RxOptional', '3.2.0'
+  pod 'RxCocoa'
+  pod 'RxSwift'
+  pod 'RxOptional'
 
   # Network
   pod 'Moya/RxSwift'
 
   # Utils
-  pod 'PluggableApplicationDelegate', '~> 0.1.1'
-  pod 'SwiftDate', '~> 4.3.0'
-  pod 'KeychainAccess', '~> 3.1'
+  pod 'PluggableApplicationDelegate'
+  # pod 'SwiftDate'
+  pod 'KeychainAccess'
 
   target 'Eagle Quote AlvinTests' do
     inherit! :search_paths
