@@ -13,4 +13,14 @@ import Nimble
 
 class AccessTokenTests: QuickSpec {
   
+  override func spec() {
+    
+    describe("An access token model") {
+    
+      let access = AccessToken()
+    
+    }
+    
+  }
+  
 }
