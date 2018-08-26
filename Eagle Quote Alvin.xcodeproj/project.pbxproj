@@ -57,6 +57,7 @@
 		725CFF0521329EBB004C60C7 /* EndpointResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725CFF0421329EBB004C60C7 /* EndpointResponse.swift */; };
 		725CFF092132A0F6004C60C7 /* QuotesResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725CFF082132A0F6004C60C7 /* QuotesResultTests.swift */; };
 		725CFF0B2132A1B0004C60C7 /* QuotesResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725CFF0A2132A1B0004C60C7 /* QuotesResult.swift */; };
+		725CFF0D2132A30B004C60C7 /* Authorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725CFF0C2132A30B004C60C7 /* Authorization.swift */; };
 		725CFF0F2132A325004C60C7 /* AuthorizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725CFF0E2132A325004C60C7 /* AuthorizationTests.swift */; };
 		725EAD432132767F000F4676 /* AccessTokenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725EAD422132767F000F4676 /* AccessTokenTests.swift */; };
 		725EAD4521327801000F4676 /* AccessToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725EAD4421327801000F4676 /* AccessToken.swift */; };
@@ -140,6 +141,7 @@
 		725CFF0421329EBB004C60C7 /* EndpointResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointResponse.swift; sourceTree = "<group>"; };
 		725CFF082132A0F6004C60C7 /* QuotesResultTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesResultTests.swift; sourceTree = "<group>"; };
 		725CFF0A2132A1B0004C60C7 /* QuotesResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesResult.swift; sourceTree = "<group>"; };
+		725CFF0C2132A30B004C60C7 /* Authorization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authorization.swift; sourceTree = "<group>"; };
 		725CFF0E2132A325004C60C7 /* AuthorizationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationTests.swift; sourceTree = "<group>"; };
 		725EAD422132767F000F4676 /* AccessTokenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessTokenTests.swift; sourceTree = "<group>"; };
 		725EAD4421327801000F4676 /* AccessToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessToken.swift; sourceTree = "<group>"; };
@@ -266,6 +268,7 @@
 				725CFF0021329CFD004C60C7 /* EndpointPaging.swift */,
 				725CFF0421329EBB004C60C7 /* EndpointResponse.swift */,
 				725CFF0A2132A1B0004C60C7 /* QuotesResult.swift */,
+				725CFF0C2132A30B004C60C7 /* Authorization.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -656,6 +659,7 @@
 				725CFEFD21328FBB004C60C7 /* Quote.swift in Sources */,
 				725CFEF321328180004C60C7 /* Premiums.swift in Sources */,
 				725CFF0B2132A1B0004C60C7 /* QuotesResult.swift in Sources */,
+				725CFF0D2132A30B004C60C7 /* Authorization.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
