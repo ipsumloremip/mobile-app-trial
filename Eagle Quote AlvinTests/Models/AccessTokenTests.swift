@@ -22,8 +22,20 @@ class AccessTokenTests: QuickSpec {
       let testToken = ""
       let testExpiredAt = ""
     
-      let access = AccessToken(token: testToken, expiredAt: testExpiredAt)
+      let accessToken = AccessToken(token: testToken, expiredAt: testExpiredAt)
     
+      context("after being initialized") {
+       
+        it("can be encoded") {
+          
+          let encodedAccessToken = try! JSONEncoder().encode(accessToken)
+          
+          expect(encodedAccessToken).toNot(beNil())
+          
+        }
+        
+      }
+      
     }
     
   }
