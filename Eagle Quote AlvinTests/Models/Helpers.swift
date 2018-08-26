@@ -179,3 +179,30 @@ extension DummyData {
 
   }
 }
+
+extension DummyData {
+
+  struct EndpointResponse: StubbedModelType {
+
+    let code = 200
+    let status = "Success"
+    let message = "Quotes successfully fetched."
+
+    var json: [String: Codable] {
+      return [
+        "code": code,
+        "status": status,
+        "message": message
+      ]
+    }
+
+    var object: Eagle_Quote_Alvin.EndpointResponse {
+      return Eagle_Quote_Alvin.EndpointResponse(
+        code: code,
+        status: status,
+        message: message
+      )
+    }
+
+  }
+}

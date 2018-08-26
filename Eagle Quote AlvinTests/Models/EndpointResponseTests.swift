@@ -19,15 +19,7 @@ class EndpointResponseTests: QuickSpec {
     
     describe("A endpoint response model") {
       
-      let code = 200
-      let status = "Success"
-      let message = "Quotes successfully fetched."
-      
-      let response = EndpointResponse(
-        code: code,
-        status: status,
-        message: message
-      )
+      let response = DummyData.EndpointResponse().object
       
       context("after being initialized") {
         
@@ -43,11 +35,7 @@ class EndpointResponseTests: QuickSpec {
       
       it("can be decoded from JSON data") {
         
-        let json: [String: Codable] = [
-          "code": code,
-          "status": status,
-          "message": message
-        ]
+        let json = DummyData.EndpointResponse().json
         
         let jsonData = try! JSONSerialization.data(withJSONObject: json, options: .prettyPrinted)
         
