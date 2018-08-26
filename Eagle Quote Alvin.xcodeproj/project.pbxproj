@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0103FE7EEDB20121DCC59CDD /* Pods_Eagle_Quote_AlvinUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 797F9F2ACC67F4AFA3B5E635 /* Pods_Eagle_Quote_AlvinUITests.framework */; };
+		24347305DFD1D676687F7EEC /* Pods_Eagle_Quote_AlvinTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 981AD05C9F8483D28CB1E6F5 /* Pods_Eagle_Quote_AlvinTests.framework */; };
 		72C4A4D421325DDA005383F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C4A4D321325DDA005383F0 /* AppDelegate.swift */; };
 		72C4A4D621325DDA005383F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C4A4D521325DDA005383F0 /* ViewController.swift */; };
 		72C4A4D921325DDA005383F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72C4A4D721325DDA005383F0 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		72C4A4DE21325DDA005383F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72C4A4DC21325DDA005383F0 /* LaunchScreen.storyboard */; };
 		72C4A4E921325DDA005383F0 /* Eagle_Quote_AlvinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C4A4E821325DDA005383F0 /* Eagle_Quote_AlvinTests.swift */; };
 		72C4A4F421325DDA005383F0 /* Eagle_Quote_AlvinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C4A4F321325DDA005383F0 /* Eagle_Quote_AlvinUITests.swift */; };
+		DA8C35D342D1B6FAA117CC7A /* Pods_Eagle_Quote_Alvin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA1F953851AB9D585373A30 /* Pods_Eagle_Quote_Alvin.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2791F190CB84810162332253 /* Pods-Eagle Quote AlvinTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eagle Quote AlvinTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Eagle Quote AlvinTests/Pods-Eagle Quote AlvinTests.release.xcconfig"; sourceTree = "<group>"; };
+		32910A966178FA6F765D952D /* Pods-Eagle Quote AlvinUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eagle Quote AlvinUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Eagle Quote AlvinUITests/Pods-Eagle Quote AlvinUITests.release.xcconfig"; sourceTree = "<group>"; };
+		40D53BE98614FD6C8F7AE64C /* Pods-Eagle Quote Alvin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eagle Quote Alvin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Eagle Quote Alvin/Pods-Eagle Quote Alvin.debug.xcconfig"; sourceTree = "<group>"; };
 		72C4A4D021325DDA005383F0 /* Eagle Quote Alvin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eagle Quote Alvin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		72C4A4D321325DDA005383F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72C4A4D521325DDA005383F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,12 @@
 		72C4A4EF21325DDA005383F0 /* Eagle Quote AlvinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eagle Quote AlvinUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		72C4A4F321325DDA005383F0 /* Eagle_Quote_AlvinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eagle_Quote_AlvinUITests.swift; sourceTree = "<group>"; };
 		72C4A4F521325DDA005383F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		797F9F2ACC67F4AFA3B5E635 /* Pods_Eagle_Quote_AlvinUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eagle_Quote_AlvinUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91FD0E9B2EC2DAD5CAA67D73 /* Pods-Eagle Quote Alvin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eagle Quote Alvin.release.xcconfig"; path = "Pods/Target Support Files/Pods-Eagle Quote Alvin/Pods-Eagle Quote Alvin.release.xcconfig"; sourceTree = "<group>"; };
+		981AD05C9F8483D28CB1E6F5 /* Pods_Eagle_Quote_AlvinTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eagle_Quote_AlvinTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AA1F953851AB9D585373A30 /* Pods_Eagle_Quote_Alvin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eagle_Quote_Alvin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EC100B8421F1D99B2C66A36 /* Pods-Eagle Quote AlvinTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eagle Quote AlvinTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Eagle Quote AlvinTests/Pods-Eagle Quote AlvinTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D5D4409E1FE77D25BED2948E /* Pods-Eagle Quote AlvinUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eagle Quote AlvinUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Eagle Quote AlvinUITests/Pods-Eagle Quote AlvinUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA8C35D342D1B6FAA117CC7A /* Pods_Eagle_Quote_Alvin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24347305DFD1D676687F7EEC /* Pods_Eagle_Quote_AlvinTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0103FE7EEDB20121DCC59CDD /* Pods_Eagle_Quote_AlvinUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		690FA34D81752C471DBBF51C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AA1F953851AB9D585373A30 /* Pods_Eagle_Quote_Alvin.framework */,
+				981AD05C9F8483D28CB1E6F5 /* Pods_Eagle_Quote_AlvinTests.framework */,
+				797F9F2ACC67F4AFA3B5E635 /* Pods_Eagle_Quote_AlvinUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		72C4A4C721325DDA005383F0 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +106,8 @@
 				72C4A4E721325DDA005383F0 /* Eagle Quote AlvinTests */,
 				72C4A4F221325DDA005383F0 /* Eagle Quote AlvinUITests */,
 				72C4A4D121325DDA005383F0 /* Products */,
+				DF6AFC72974B37F37BC84F4C /* Pods */,
+				690FA34D81752C471DBBF51C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +152,19 @@
 			path = "Eagle Quote AlvinUITests";
 			sourceTree = "<group>";
 		};
+		DF6AFC72974B37F37BC84F4C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40D53BE98614FD6C8F7AE64C /* Pods-Eagle Quote Alvin.debug.xcconfig */,
+				91FD0E9B2EC2DAD5CAA67D73 /* Pods-Eagle Quote Alvin.release.xcconfig */,
+				9EC100B8421F1D99B2C66A36 /* Pods-Eagle Quote AlvinTests.debug.xcconfig */,
+				2791F190CB84810162332253 /* Pods-Eagle Quote AlvinTests.release.xcconfig */,
+				D5D4409E1FE77D25BED2948E /* Pods-Eagle Quote AlvinUITests.debug.xcconfig */,
+				32910A966178FA6F765D952D /* Pods-Eagle Quote AlvinUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 72C4A4F821325DDA005383F0 /* Build configuration list for PBXNativeTarget "Eagle Quote Alvin" */;
 			buildPhases = (
+				EBD4AA21FC12C8FA897B9AC8 /* [CP] Check Pods Manifest.lock */,
 				72C4A4CC21325DDA005383F0 /* Sources */,
 				72C4A4CD21325DDA005383F0 /* Frameworks */,
 				72C4A4CE21325DDA005383F0 /* Resources */,
+				8A8D7C6055F3260EA64503CD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,9 +191,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 72C4A4FB21325DDA005383F0 /* Build configuration list for PBXNativeTarget "Eagle Quote AlvinTests" */;
 			buildPhases = (
+				91728B6043737A5FAE12432E /* [CP] Check Pods Manifest.lock */,
 				72C4A4E021325DDA005383F0 /* Sources */,
 				72C4A4E121325DDA005383F0 /* Frameworks */,
 				72C4A4E221325DDA005383F0 /* Resources */,
+				54DA4F75F039396028D6FD58 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -167,6 +211,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 72C4A4FE21325DDA005383F0 /* Build configuration list for PBXNativeTarget "Eagle Quote AlvinUITests" */;
 			buildPhases = (
+				A12C48E439D03AFFA3870B00 /* [CP] Check Pods Manifest.lock */,
 				72C4A4EB21325DDA005383F0 /* Sources */,
 				72C4A4EC21325DDA005383F0 /* Frameworks */,
 				72C4A4ED21325DDA005383F0 /* Resources */,
@@ -253,6 +298,125 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		54DA4F75F039396028D6FD58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Eagle Quote AlvinTests/Pods-Eagle Quote AlvinTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Eagle Quote AlvinTests/Pods-Eagle Quote AlvinTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A8D7C6055F3260EA64503CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Eagle Quote Alvin/Pods-Eagle Quote Alvin-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/KeychainAccess/KeychainAccess.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFTextAccessibility/MDFTextAccessibility.framework",
+				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/PluggableApplicationDelegate/PluggableApplicationDelegate.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxOptional/RxOptional.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainAccess.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFTextAccessibility.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PluggableApplicationDelegate.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxOptional.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftDate.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Eagle Quote Alvin/Pods-Eagle Quote Alvin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91728B6043737A5FAE12432E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Eagle Quote AlvinTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A12C48E439D03AFFA3870B00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Eagle Quote AlvinUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBD4AA21FC12C8FA897B9AC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Eagle Quote Alvin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		72C4A4CC21325DDA005383F0 /* Sources */ = {
@@ -424,6 +588,7 @@
 		};
 		72C4A4F921325DDA005383F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40D53BE98614FD6C8F7AE64C /* Pods-Eagle Quote Alvin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -441,6 +606,7 @@
 		};
 		72C4A4FA21325DDA005383F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91FD0E9B2EC2DAD5CAA67D73 /* Pods-Eagle Quote Alvin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -458,8 +624,9 @@
 		};
 		72C4A4FC21325DDA005383F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EC100B8421F1D99B2C66A36 /* Pods-Eagle Quote AlvinTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DJYRMWGS2W;
@@ -475,8 +642,9 @@
 		};
 		72C4A4FD21325DDA005383F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2791F190CB84810162332253 /* Pods-Eagle Quote AlvinTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DJYRMWGS2W;
@@ -492,8 +660,9 @@
 		};
 		72C4A4FF21325DDA005383F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5D4409E1FE77D25BED2948E /* Pods-Eagle Quote AlvinUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DJYRMWGS2W;
 				INFOPLIST_FILE = "Eagle Quote AlvinUITests/Info.plist";
@@ -508,8 +677,9 @@
 		};
 		72C4A50021325DDA005383F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32910A966178FA6F765D952D /* Pods-Eagle Quote AlvinUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DJYRMWGS2W;
 				INFOPLIST_FILE = "Eagle Quote AlvinUITests/Info.plist";
