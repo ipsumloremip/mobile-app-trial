@@ -21,7 +21,7 @@ target 'Eagle Quote Alvin' do
 
   # Utils
   pod 'PluggableApplicationDelegate'
-  # pod 'SwiftDate'
+  pod 'Timepiece'
   pod 'KeychainAccess'
 
   target 'Eagle Quote AlvinTests' do
