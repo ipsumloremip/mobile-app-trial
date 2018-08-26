@@ -60,6 +60,7 @@
 		725CFF0D2132A30B004C60C7 /* Authorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725CFF0C2132A30B004C60C7 /* Authorization.swift */; };
 		725CFF0F2132A325004C60C7 /* AuthorizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725CFF0E2132A325004C60C7 /* AuthorizationTests.swift */; };
 		725CFF112132A406004C60C7 /* UserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725CFF102132A406004C60C7 /* UserTests.swift */; };
+		725CFF132132A52A004C60C7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725CFF122132A52A004C60C7 /* User.swift */; };
 		725EAD432132767F000F4676 /* AccessTokenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725EAD422132767F000F4676 /* AccessTokenTests.swift */; };
 		725EAD4521327801000F4676 /* AccessToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725EAD4421327801000F4676 /* AccessToken.swift */; };
 		7264D472213280A700A35795 /* PremiumsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7264D471213280A700A35795 /* PremiumsTests.swift */; };
@@ -145,6 +146,7 @@
 		725CFF0C2132A30B004C60C7 /* Authorization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authorization.swift; sourceTree = "<group>"; };
 		725CFF0E2132A325004C60C7 /* AuthorizationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationTests.swift; sourceTree = "<group>"; };
 		725CFF102132A406004C60C7 /* UserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTests.swift; sourceTree = "<group>"; };
+		725CFF122132A52A004C60C7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		725EAD422132767F000F4676 /* AccessTokenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessTokenTests.swift; sourceTree = "<group>"; };
 		725EAD4421327801000F4676 /* AccessToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessToken.swift; sourceTree = "<group>"; };
 		7264D471213280A700A35795 /* PremiumsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumsTests.swift; sourceTree = "<group>"; };
@@ -271,6 +273,7 @@
 				725CFF0421329EBB004C60C7 /* EndpointResponse.swift */,
 				725CFF0A2132A1B0004C60C7 /* QuotesResult.swift */,
 				725CFF0C2132A30B004C60C7 /* Authorization.swift */,
+				725CFF122132A52A004C60C7 /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -663,6 +666,7 @@
 				725CFEF321328180004C60C7 /* Premiums.swift in Sources */,
 				725CFF0B2132A1B0004C60C7 /* QuotesResult.swift in Sources */,
 				725CFF0D2132A30B004C60C7 /* Authorization.swift in Sources */,
+				725CFF132132A52A004C60C7 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
