@@ -36,6 +36,21 @@ class AccessTokenTests: QuickSpec {
         
       }
       
+      it("can be decoded from JSON data") {
+        
+        let testJSON = [
+          "token": testToken,
+          "expiredAt": testExpiredAt
+        ]
+        
+        let testJsonData = try! JSONSerialization.data(withJSONObject: testJSON, options: .prettyPrinted)
+        
+        let decodedAccessToken = try! JSONDecoder().decode(AccessToken.self, from: testJsonData)
+        
+        expect(decodedAccessToken).toNot(beNil())
+        
+      }
+      
     }
     
   }
