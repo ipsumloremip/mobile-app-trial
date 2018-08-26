@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct AccessToken: Encodable {
+struct AccessToken: Encodable, Decodable {
   
   let token: String
   let expiredAt: String
