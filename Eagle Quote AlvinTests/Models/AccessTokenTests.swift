@@ -18,8 +18,11 @@ class AccessTokenTests: QuickSpec {
   override func spec() {
     
     describe("An access token model") {
+      
+      let testToken = ""
+      let testExpiredAt = ""
     
-      let access = AccessToken()
+      let access = AccessToken(token: testToken, expiredAt: testExpiredAt)
     
     }
     
