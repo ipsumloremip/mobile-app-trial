@@ -63,6 +63,7 @@
 		725CFF132132A52A004C60C7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725CFF122132A52A004C60C7 /* User.swift */; };
 		725CFF152132A6DC004C60C7 /* LoginResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725CFF142132A6DC004C60C7 /* LoginResultTests.swift */; };
 		725CFF172132A799004C60C7 /* LoginResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725CFF162132A799004C60C7 /* LoginResult.swift */; };
+		725CFF192132A8DB004C60C7 /* QuoteEmailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725CFF182132A8DB004C60C7 /* QuoteEmailTests.swift */; };
 		725EAD432132767F000F4676 /* AccessTokenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725EAD422132767F000F4676 /* AccessTokenTests.swift */; };
 		725EAD4521327801000F4676 /* AccessToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725EAD4421327801000F4676 /* AccessToken.swift */; };
 		7264D472213280A700A35795 /* PremiumsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7264D471213280A700A35795 /* PremiumsTests.swift */; };
@@ -151,6 +152,7 @@
 		725CFF122132A52A004C60C7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		725CFF142132A6DC004C60C7 /* LoginResultTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResultTests.swift; sourceTree = "<group>"; };
 		725CFF162132A799004C60C7 /* LoginResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResult.swift; sourceTree = "<group>"; };
+		725CFF182132A8DB004C60C7 /* QuoteEmailTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteEmailTests.swift; sourceTree = "<group>"; };
 		725EAD422132767F000F4676 /* AccessTokenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessTokenTests.swift; sourceTree = "<group>"; };
 		725EAD4421327801000F4676 /* AccessToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessToken.swift; sourceTree = "<group>"; };
 		7264D471213280A700A35795 /* PremiumsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumsTests.swift; sourceTree = "<group>"; };
@@ -296,6 +298,7 @@
 				725CFF0E2132A325004C60C7 /* AuthorizationTests.swift */,
 				725CFF102132A406004C60C7 /* UserTests.swift */,
 				725CFF142132A6DC004C60C7 /* LoginResultTests.swift */,
+				725CFF182132A8DB004C60C7 /* QuoteEmailTests.swift */,
 				725CFEF821328747004C60C7 /* Helpers.swift */,
 			);
 			path = Models;
@@ -691,6 +694,7 @@
 				725CFF092132A0F6004C60C7 /* QuotesResultTests.swift in Sources */,
 				725CFEFF21329176004C60C7 /* EndpointPagingTests.swift in Sources */,
 				725CFEF921328747004C60C7 /* Helpers.swift in Sources */,
+				725CFF192132A8DB004C60C7 /* QuoteEmailTests.swift in Sources */,
 				725EAD432132767F000F4676 /* AccessTokenTests.swift in Sources */,
 				725CFF112132A406004C60C7 /* UserTests.swift in Sources */,
 			);

@@ -326,3 +326,55 @@ extension DummyData {
     
   }
 }
+
+extension DummyData {
+  
+  struct QuoteEmailRecipient: StubbedModelType {
+    
+    let email = "ipsumloremip@gmail.com"
+    let name = ""
+    let type: Eagle_Quote_Alvin.QuoteEmail.Recipient.InputType = .to
+    
+    var json: [String: Codable] {
+      return [:]
+    }
+    
+    var object: Eagle_Quote_Alvin.QuoteEmail.Recipient {
+      return Eagle_Quote_Alvin.QuoteEmail.Recipient(
+        email: email,
+        name: name,
+        type: type
+      )
+    }
+    
+  }
+  
+}
+
+extension DummyData {
+  
+  struct QuoteEmail: StubbedModelType {
+    
+    let recipients = [ DummyData.QuoteEmailRecipient().object ]
+    let replyTo = "ipsumloremipsu@gmail.com"
+    let subject = "Dynamic Send Email Example"
+    let body = "Example Text Body. . . ."
+    let quoteId = 15101
+    
+    var json: [String: Codable] {
+      return [:]
+    }
+    
+    var object: Eagle_Quote_Alvin.QuoteEmail {
+      return Eagle_Quote_Alvin.QuoteEmail(
+        recipients: recipients,
+        replyTo: replyTo,
+        subject: subject,
+        body: body,
+        quoteId: quoteId
+      )
+    }
+    
+  }
+  
+}
