@@ -13,10 +13,11 @@ import PluggableApplicationDelegate
 @UIApplicationMain
 class AppDelegate: PluggableApplicationDelegate {
   
+  let viewService = ViewService()
   let keychainService = KeychainService()
 
   override var services: [ApplicationService] {
-    return [keychainService]
+    return [viewService, keychainService]
   }
 
 }
