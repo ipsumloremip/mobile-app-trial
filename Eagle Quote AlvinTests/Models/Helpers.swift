@@ -20,12 +20,15 @@ protocol StubbedModelType {
 }
 
 
-struct DummyData {
+struct DummyData { }
+
+
+extension DummyData {
 
   struct AccessToken: StubbedModelType {
 
     typealias Model = Eagle_Quote_Alvin.AccessToken
-    
+
     let token = "240eba01d2624af3a91be8709e4a26c4.f30cb3010dea425385f5006039cac9e4"
     let expiredAt = "2018-10-24T08:55:39.5589944Z"
 
@@ -35,15 +38,19 @@ struct DummyData {
         "expiredAt": ""
       ]
     }
-    
+
     var object: Eagle_Quote_Alvin.AccessToken {
       return Eagle_Quote_Alvin.AccessToken(token: token, expiredAt: expiredAt)
     }
 
   }
 
+}
+
+extension DummyData {
+
   struct Premiums: StubbedModelType {
-    
+
     let minTotalPremium: Double = 111.29
     let maxTotalPremium: Double = 138.37
 
@@ -53,7 +60,7 @@ struct DummyData {
         "maxTotalPremium": maxTotalPremium
       ]
     }
-    
+
     var object: Eagle_Quote_Alvin.Premiums {
       return Eagle_Quote_Alvin.Premiums(
         minTotalPremium: minTotalPremium,
@@ -62,9 +69,13 @@ struct DummyData {
     }
 
   }
+}
+
+
+extension DummyData {
 
   struct Client: StubbedModelType {
-    
+
     let id = 0
     let name = "Kiki"
     let gender = "M"
@@ -110,4 +121,31 @@ struct DummyData {
 
   }
 
+}
+
+extension DummyData {
+  
+  struct Quote: StubbedModelType {
+    
+    let quoteId = 15101
+    let createdAt = "2018-08-24T07:40:43.6567811Z"
+    let clients = [DummyData.Client().object]
+    
+    var json: [String: Codable] {
+      return [
+        "quoteId": quoteId,
+        "createdAt": createdAt,
+        "clients": [ DummyData.Client().json ]
+      ]
+    }
+    
+    var object: Eagle_Quote_Alvin.Quote {
+      return Eagle_Quote_Alvin.Quote(
+        quoteId: quoteId,
+        createdAt: createdAt,
+        clients: clients
+      )
+    }
+    
+  }
 }
