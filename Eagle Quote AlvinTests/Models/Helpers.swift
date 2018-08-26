@@ -332,7 +332,6 @@ extension DummyData {
   struct QuoteEmailRecipient: StubbedModelType {
     
     let email = "ipsumloremip@gmail.com"
-    let name = ""
     let type: Eagle_Quote_Alvin.QuoteEmail.Recipient.InputType = .to
     
     var json: [String: Codable] {
@@ -342,7 +341,7 @@ extension DummyData {
     var object: Eagle_Quote_Alvin.QuoteEmail.Recipient {
       return Eagle_Quote_Alvin.QuoteEmail.Recipient(
         email: email,
-        name: name,
+        name: nil,
         type: type
       )
     }
@@ -356,7 +355,6 @@ extension DummyData {
   struct QuoteEmail: StubbedModelType {
     
     let recipients = [ DummyData.QuoteEmailRecipient().object ]
-    let replyTo = "ipsumloremipsu@gmail.com"
     let subject = "Dynamic Send Email Example"
     let body = "Example Text Body. . . ."
     let quoteId = 15101
@@ -368,7 +366,7 @@ extension DummyData {
     var object: Eagle_Quote_Alvin.QuoteEmail {
       return Eagle_Quote_Alvin.QuoteEmail(
         recipients: recipients,
-        replyTo: replyTo,
+        replyTo: nil,
         subject: subject,
         body: body,
         quoteId: quoteId

@@ -11,7 +11,7 @@ import Foundation
 struct QuoteEmail: Codable {
   
   let recipients: [QuoteEmail.Recipient]
-  let replyTo: String
+  let replyTo: String?
   let subject: String
   let body: String
   let quoteId: Int
@@ -36,7 +36,7 @@ extension QuoteEmail {
     }
     
     let email: String
-    let name: String
+    let name: String?
     let type: InputType
     
   }
