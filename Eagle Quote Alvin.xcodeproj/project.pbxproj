@@ -45,6 +45,7 @@
 		7230CBD72132659E000176D5 /* SFText-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7230CBAC2132656D000176D5 /* SFText-RegularItalic.otf */; };
 		7230CBD82132659E000176D5 /* SFText-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7230CBA62132656B000176D5 /* SFText-Semibold.otf */; };
 		7230CBD92132659E000176D5 /* SFText-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7230CB982132656A000176D5 /* SFText-SemiboldItalic.otf */; };
+		72487D612133835C00751E11 /* Login.json in Resources */ = {isa = PBXBuildFile; fileRef = 72487D602133835C00751E11 /* Login.json */; };
 		725CFEF321328180004C60C7 /* Premiums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725CFEF221328180004C60C7 /* Premiums.swift */; };
 		725CFEF521328259004C60C7 /* ClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725CFEF421328259004C60C7 /* ClientTests.swift */; };
 		725CFEF72132841F004C60C7 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725CFEF62132841F004C60C7 /* Client.swift */; };
@@ -77,6 +78,7 @@
 		725EAD432132767F000F4676 /* AccessTokenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725EAD422132767F000F4676 /* AccessTokenTests.swift */; };
 		725EAD4521327801000F4676 /* AccessToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725EAD4421327801000F4676 /* AccessToken.swift */; };
 		7264D472213280A700A35795 /* PremiumsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7264D471213280A700A35795 /* PremiumsTests.swift */; };
+		728EBEE2213383D500F13E10 /* Quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = 728EBEE1213383D500F13E10 /* Quotes.json */; };
 		72C4A4D421325DDA005383F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C4A4D321325DDA005383F0 /* AppDelegate.swift */; };
 		72C4A4D621325DDA005383F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C4A4D521325DDA005383F0 /* ViewController.swift */; };
 		72C4A4D921325DDA005383F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72C4A4D721325DDA005383F0 /* Main.storyboard */; };
@@ -144,6 +146,7 @@
 		7230CBB32132656F000176D5 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
 		7230CBB42132656F000176D5 /* SFText-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFText-Heavy.otf"; sourceTree = "<group>"; };
 		7230CBB52132656F000176D5 /* SFText-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFText-MediumItalic.otf"; sourceTree = "<group>"; };
+		72487D602133835C00751E11 /* Login.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Login.json; sourceTree = "<group>"; };
 		725CFEF221328180004C60C7 /* Premiums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Premiums.swift; sourceTree = "<group>"; };
 		725CFEF421328259004C60C7 /* ClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientTests.swift; sourceTree = "<group>"; };
 		725CFEF62132841F004C60C7 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
@@ -176,6 +179,7 @@
 		725EAD422132767F000F4676 /* AccessTokenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessTokenTests.swift; sourceTree = "<group>"; };
 		725EAD4421327801000F4676 /* AccessToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessToken.swift; sourceTree = "<group>"; };
 		7264D471213280A700A35795 /* PremiumsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumsTests.swift; sourceTree = "<group>"; };
+		728EBEE1213383D500F13E10 /* Quotes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Quotes.json; sourceTree = "<group>"; };
 		72C4A4D021325DDA005383F0 /* Eagle Quote Alvin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eagle Quote Alvin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		72C4A4D321325DDA005383F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72C4A4D521325DDA005383F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -286,6 +290,15 @@
 				7230CB982132656A000176D5 /* SFText-SemiboldItalic.otf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		72487D5F2133832700751E11 /* StubbedResponses */ = {
+			isa = PBXGroup;
+			children = (
+				72487D602133835C00751E11 /* Login.json */,
+				728EBEE1213383D500F13E10 /* Quotes.json */,
+			);
+			path = StubbedResponses;
 			sourceTree = "<group>";
 		};
 		725CFF1C2132B204004C60C7 /* Utils */ = {
@@ -404,6 +417,7 @@
 				72C4A4D721325DDA005383F0 /* Main.storyboard */,
 				72C4A4DC21325DDA005383F0 /* LaunchScreen.storyboard */,
 				725CFF1C2132B204004C60C7 /* Utils */,
+				72487D5F2133832700751E11 /* StubbedResponses */,
 				7230CB90213264B1000176D5 /* Resources */,
 			);
 			path = "Eagle Quote Alvin";

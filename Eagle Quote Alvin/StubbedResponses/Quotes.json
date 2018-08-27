@@ -1,0 +1,80 @@
+{
+  "data": {
+    "quotes": [
+               {
+               "quoteId": 15149,
+               "createdAt": "2018-08-26T07:48:32.4086832",
+               "clients": [
+                           {
+                           "id": 16143,
+                           "name": "Adult 1",
+                           "gender": "M",
+                           "age": 18,
+                           "occupationId": 3,
+                           "employedStatus": "Self-Employed < 3 years",
+                           "isSmoker": false,
+                           "isChild": false,
+                           "isPrimary": true,
+                           "premiums": {
+                           "minTotalPremium": 581.280000,
+                           "maxTotalPremium": 2649.720000
+                           }
+                           }
+                           ]
+               },
+               {
+               "quoteId": 15147,
+               "createdAt": "2018-08-26T07:47:19.1044423",
+               "clients": [
+                           {
+                           "id": 16139,
+                           "name": "Anna Marie",
+                           "gender": "F",
+                           "age": 30,
+                           "occupationId": 2,
+                           "employedStatus": "Self-Employed",
+                           "isSmoker": true,
+                           "isChild": false,
+                           "isPrimary": true,
+                           "premiums": {
+                           "minTotalPremium": 209.540000,
+                           "maxTotalPremium": 220.130000
+                           }
+                           }
+                           ]
+               },
+               {
+               "quoteId": 15146,
+               "createdAt": "2018-08-26T07:45:05.1538473",
+               "clients": [
+                           {
+                           "id": 16138,
+                           "name": "John Smith ",
+                           "gender": "M",
+                           "age": 40,
+                           "occupationId": 1,
+                           "employedStatus": "Employed",
+                           "isSmoker": false,
+                           "isChild": false,
+                           "isPrimary": true,
+                           "premiums": {
+                           "minTotalPremium": 114.670000,
+                           "maxTotalPremium": 137.220000
+                           }
+                           }
+                           ]
+               }
+               ],
+    "paging": {
+      "page": 1,
+      "perPage": 20,
+      "size": 3,
+      "records": 3
+    },
+    "response": {
+      "code": 200,
+      "status": "Success",
+      "message": "Quotes successfully fetched."
+    }
+  }
+}

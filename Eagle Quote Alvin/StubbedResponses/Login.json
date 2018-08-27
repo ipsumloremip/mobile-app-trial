@@ -1,0 +1,30 @@
+{
+  "data": {
+    "response": {
+      "code": 200,
+      "status": "Success",
+      "message": "User successfully login and generated token."
+    },
+    "authorization": {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbHZpbmpheWNvc2FyZUBnbWFpbC5jb20iLCJqdGkiOiI1OGU0YTdkOS0zZGM0LTRiNGUtYWJiOC1jZTM2YTA3NDhlNWMiLCJleHAiOjE1MzU1MjA1MTksImlzcyI6Imh0dHA6Ly9ibGFja2Zpbi50ZWNobm9sb2d5IiwiYXVkIjoiaHR0cDovL2JsYWNrZmluLnRlY2hub2xvZ3kifQ.kDkWV7-bpwO_r9KM2Sje5xW6T6YdKtGx6QetZzXdq04",
+      "validTo": "2018-08-29T05:28:39Z",
+      "sessionToken": {
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbHZpbmpheWNvc2FyZUBnbWFpbC5jb20iLCJqdGkiOiI1OGU0YTdkOS0zZGM0LTRiNGUtYWJiOC1jZTM2YTA3NDhlNWMiLCJleHAiOjE1MzU1MjA1MTksImlzcyI6Imh0dHA6Ly9ibGFja2Zpbi50ZWNobm9sb2d5IiwiYXVkIjoiaHR0cDovL2JsYWNrZmluLnRlY2hub2xvZ3kifQ.kDkWV7-bpwO_r9KM2Sje5xW6T6YdKtGx6QetZzXdq04",
+        "expiredAt": "2018-08-29T05:28:39Z"
+      },
+      "refreshToken": {
+        "token": "240eba01d2624af3a91be8709e4a26c4.f30cb3010dea425385f5006039cac9e4",
+        "expiredAt": "2018-10-24T08:55:39.5589944Z"
+      }
+    },
+    "user": {
+      "id": "f30cb301-0dea-4253-85f5-006039cac9e4",
+      "email": "alvinjaycosare@gmail.com",
+      "fspr": "FSP123456",
+      "fullName": "Alvin",
+      "createdAt": "2018-08-25T08:55:47.5446334",
+      "updatedAt": "2018-08-25T08:55:47.5446338",
+      "accountType": 0
+    }
+  }
+}
