@@ -60,7 +60,10 @@ extension LoginCoordinator {
   }
 
   fileprivate func showDashboard() {
-    // TODO
+    let dashboardCoordinator = DashboardCoordinator(window: window)
+    coordinate(to: dashboardCoordinator)
+      .subscribe()
+      .disposed(by: disposeBag)
   }
   
   fileprivate func show(_ error: LoginErrorInfo) {
