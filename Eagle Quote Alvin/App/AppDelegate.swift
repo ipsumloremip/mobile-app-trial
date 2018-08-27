@@ -13,12 +13,13 @@ import PluggableApplicationDelegate
 @UIApplicationMain
 class AppDelegate: PluggableApplicationDelegate {
   
+  let appearanceService = AppearanceService()
   let viewService = ViewService()
   let keychainService = KeychainService()
   let sessionService = SessionService()
 
   override var services: [ApplicationService] {
-    return [viewService, keychainService, sessionService]
+    return [appearanceService, viewService, keychainService, sessionService]
   }
 
 }

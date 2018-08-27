@@ -101,6 +101,7 @@
 		72C4A4DE21325DDA005383F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72C4A4DC21325DDA005383F0 /* LaunchScreen.storyboard */; };
 		72C4A4E921325DDA005383F0 /* Eagle_Quote_AlvinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C4A4E821325DDA005383F0 /* Eagle_Quote_AlvinTests.swift */; };
 		72C4A4F421325DDA005383F0 /* Eagle_Quote_AlvinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C4A4F321325DDA005383F0 /* Eagle_Quote_AlvinUITests.swift */; };
+		72DA4A0021343A6C00C70E5A /* AppearanceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA49FF21343A6C00C70E5A /* AppearanceService.swift */; };
 		72F318DB21340BAE00AFC972 /* String+Validations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F318DA21340BAE00AFC972 /* String+Validations.swift */; };
 		DA8C35D342D1B6FAA117CC7A /* Pods_Eagle_Quote_Alvin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA1F953851AB9D585373A30 /* Pods_Eagle_Quote_Alvin.framework */; };
 /* End PBXBuildFile section */
@@ -224,6 +225,7 @@
 		72C4A4EF21325DDA005383F0 /* Eagle Quote AlvinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eagle Quote AlvinUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		72C4A4F321325DDA005383F0 /* Eagle_Quote_AlvinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eagle_Quote_AlvinUITests.swift; sourceTree = "<group>"; };
 		72C4A4F521325DDA005383F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72DA49FF21343A6C00C70E5A /* AppearanceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearanceService.swift; sourceTree = "<group>"; };
 		72F318DA21340BAE00AFC972 /* String+Validations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Validations.swift"; sourceTree = "<group>"; };
 		797F9F2ACC67F4AFA3B5E635 /* Pods_Eagle_Quote_AlvinUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eagle_Quote_AlvinUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91FD0E9B2EC2DAD5CAA67D73 /* Pods-Eagle Quote Alvin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eagle Quote Alvin.release.xcconfig"; path = "Pods/Target Support Files/Pods-Eagle Quote Alvin/Pods-Eagle Quote Alvin.release.xcconfig"; sourceTree = "<group>"; };
@@ -353,6 +355,7 @@
 				725CFF232132B333004C60C7 /* KeychainService.swift */,
 				725CFF262132B522004C60C7 /* ViewService.swift */,
 				725CFF282132B647004C60C7 /* SessionService.swift */,
+				72DA49FF21343A6C00C70E5A /* AppearanceService.swift */,
 				728EBED4213371A900F13E10 /* API */,
 			);
 			path = Services;
@@ -878,6 +881,7 @@
 				728EBEDA213377BF00F13E10 /* AuthorizedAPIServiceType.swift in Sources */,
 				728EBED82133721400F13E10 /* AuthorizedEagleQuoteAPI.swift in Sources */,
 				7244F8F32133D06B00D70AA0 /* LoginViewModel.swift in Sources */,
+				72DA4A0021343A6C00C70E5A /* AppearanceService.swift in Sources */,
 				72C4A4D421325DDA005383F0 /* AppDelegate.swift in Sources */,
 				725EAD4521327801000F4676 /* AccessToken.swift in Sources */,
 				728EBEF42133937C00F13E10 /* RoundedCornersProtocol.swift in Sources */,
