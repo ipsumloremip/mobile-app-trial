@@ -20,8 +20,14 @@ class AppCoordinator: BaseCoordinator<Void> {
   }
 
   override func start() -> Observable<Void> {
-    let loginCoordinator = LoginCoordinator(window: window)
-    return coordinate(to: loginCoordinator)
+    
+    var rootCoordinator: BaseCoordinator = LoginCoordinator(window: window)
+    
+    if UIApplication.shared.appDelegate.sessionService.hasSession {
+      rootCoordinator = DashboardCoordinator(window: window)
+    }
+    
+    return coordinate(to: rootCoordinator)
   }
 
 }
