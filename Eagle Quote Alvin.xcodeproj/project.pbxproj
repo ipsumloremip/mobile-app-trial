@@ -87,6 +87,7 @@
 		728EBEE021337F0D00F13E10 /* APIServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728EBEDF21337F0D00F13E10 /* APIServiceTests.swift */; };
 		728EBEE2213383D500F13E10 /* Quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = 728EBEE1213383D500F13E10 /* Quotes.json */; };
 		728EBEE621338D2700F13E10 /* AuthorizedAPIServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728EBEE521338D2700F13E10 /* AuthorizedAPIServiceTests.swift */; };
+		728EBEF7213395A800F13E10 /* UIColor+EagleQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728EBEF6213395A800F13E10 /* UIColor+EagleQuote.swift */; };
 		72C4A4D421325DDA005383F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C4A4D321325DDA005383F0 /* AppDelegate.swift */; };
 		72C4A4DB21325DDA005383F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72C4A4DA21325DDA005383F0 /* Assets.xcassets */; };
 		72C4A4DE21325DDA005383F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72C4A4DC21325DDA005383F0 /* LaunchScreen.storyboard */; };
@@ -194,6 +195,7 @@
 		728EBEDF21337F0D00F13E10 /* APIServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceTests.swift; sourceTree = "<group>"; };
 		728EBEE1213383D500F13E10 /* Quotes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Quotes.json; sourceTree = "<group>"; };
 		728EBEE521338D2700F13E10 /* AuthorizedAPIServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizedAPIServiceTests.swift; sourceTree = "<group>"; };
+		728EBEF6213395A800F13E10 /* UIColor+EagleQuote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+EagleQuote.swift"; sourceTree = "<group>"; };
 		72C4A4D021325DDA005383F0 /* Eagle Quote Alvin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eagle Quote Alvin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		72C4A4D321325DDA005383F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72C4A4DA21325DDA005383F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -319,6 +321,7 @@
 			isa = PBXGroup;
 			children = (
 				725CFF1D2132B216004C60C7 /* ScrollViewController.swift */,
+				728EBEF6213395A800F13E10 /* UIColor+EagleQuote.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -818,6 +821,7 @@
 				728EBEDE21337C4B00F13E10 /* AuthorizedAPIService.swift in Sources */,
 				725CFF1E2132B216004C60C7 /* ScrollViewController.swift in Sources */,
 				728EBED32133717000F13E10 /* APIServiceType.swift in Sources */,
+				728EBEF7213395A800F13E10 /* UIColor+EagleQuote.swift in Sources */,
 				728EBEDA213377BF00F13E10 /* AuthorizedAPIServiceType.swift in Sources */,
 				728EBED82133721400F13E10 /* AuthorizedEagleQuoteAPI.swift in Sources */,
 				72C4A4D421325DDA005383F0 /* AppDelegate.swift in Sources */,
