@@ -45,6 +45,8 @@
 		7230CBD72132659E000176D5 /* SFText-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7230CBAC2132656D000176D5 /* SFText-RegularItalic.otf */; };
 		7230CBD82132659E000176D5 /* SFText-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7230CBA62132656B000176D5 /* SFText-Semibold.otf */; };
 		7230CBD92132659E000176D5 /* SFText-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7230CB982132656A000176D5 /* SFText-SemiboldItalic.otf */; };
+		72363B1121341A4B008BB108 /* UIAlertController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72363B1021341A4B008BB108 /* UIAlertController+Extensions.swift */; };
+		72363B13213422FF008BB108 /* Error+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72363B12213422FF008BB108 /* Error+Extensions.swift */; };
 		72487D612133835C00751E11 /* Login.json in Resources */ = {isa = PBXBuildFile; fileRef = 72487D602133835C00751E11 /* Login.json */; };
 		725CFEF321328180004C60C7 /* Premiums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725CFEF221328180004C60C7 /* Premiums.swift */; };
 		725CFEF521328259004C60C7 /* ClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725CFEF421328259004C60C7 /* ClientTests.swift */; };
@@ -98,6 +100,7 @@
 		72C4A4DE21325DDA005383F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72C4A4DC21325DDA005383F0 /* LaunchScreen.storyboard */; };
 		72C4A4E921325DDA005383F0 /* Eagle_Quote_AlvinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C4A4E821325DDA005383F0 /* Eagle_Quote_AlvinTests.swift */; };
 		72C4A4F421325DDA005383F0 /* Eagle_Quote_AlvinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C4A4F321325DDA005383F0 /* Eagle_Quote_AlvinUITests.swift */; };
+		72F318DB21340BAE00AFC972 /* String+Validations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F318DA21340BAE00AFC972 /* String+Validations.swift */; };
 		DA8C35D342D1B6FAA117CC7A /* Pods_Eagle_Quote_Alvin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA1F953851AB9D585373A30 /* Pods_Eagle_Quote_Alvin.framework */; };
 /* End PBXBuildFile section */
 
@@ -158,6 +161,8 @@
 		7230CBB32132656F000176D5 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
 		7230CBB42132656F000176D5 /* SFText-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFText-Heavy.otf"; sourceTree = "<group>"; };
 		7230CBB52132656F000176D5 /* SFText-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFText-MediumItalic.otf"; sourceTree = "<group>"; };
+		72363B1021341A4B008BB108 /* UIAlertController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Extensions.swift"; sourceTree = "<group>"; };
+		72363B12213422FF008BB108 /* Error+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Error+Extensions.swift"; sourceTree = "<group>"; };
 		72487D602133835C00751E11 /* Login.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Login.json; sourceTree = "<group>"; };
 		725CFEF221328180004C60C7 /* Premiums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Premiums.swift; sourceTree = "<group>"; };
 		725CFEF421328259004C60C7 /* ClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientTests.swift; sourceTree = "<group>"; };
@@ -217,6 +222,7 @@
 		72C4A4EF21325DDA005383F0 /* Eagle Quote AlvinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eagle Quote AlvinUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		72C4A4F321325DDA005383F0 /* Eagle_Quote_AlvinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eagle_Quote_AlvinUITests.swift; sourceTree = "<group>"; };
 		72C4A4F521325DDA005383F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72F318DA21340BAE00AFC972 /* String+Validations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Validations.swift"; sourceTree = "<group>"; };
 		797F9F2ACC67F4AFA3B5E635 /* Pods_Eagle_Quote_AlvinUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eagle_Quote_AlvinUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91FD0E9B2EC2DAD5CAA67D73 /* Pods-Eagle Quote Alvin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eagle Quote Alvin.release.xcconfig"; path = "Pods/Target Support Files/Pods-Eagle Quote Alvin/Pods-Eagle Quote Alvin.release.xcconfig"; sourceTree = "<group>"; };
 		981AD05C9F8483D28CB1E6F5 /* Pods_Eagle_Quote_AlvinTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eagle_Quote_AlvinTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -332,6 +338,9 @@
 			children = (
 				725CFF1D2132B216004C60C7 /* ScrollViewController.swift */,
 				728EBEF6213395A800F13E10 /* UIColor+EagleQuote.swift */,
+				72F318DA21340BAE00AFC972 /* String+Validations.swift */,
+				72363B1021341A4B008BB108 /* UIAlertController+Extensions.swift */,
+				72363B12213422FF008BB108 /* Error+Extensions.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -871,6 +880,7 @@
 				725CFF1B2132AA87004C60C7 /* QuoteEmail.swift in Sources */,
 				728EBEF22133937C00F13E10 /* RoundedCornersView.swift in Sources */,
 				725CFEF72132841F004C60C7 /* Client.swift in Sources */,
+				72F318DB21340BAE00AFC972 /* String+Validations.swift in Sources */,
 				725CFF272132B522004C60C7 /* ViewService.swift in Sources */,
 				725CFF3B2132CE51004C60C7 /* LoginCoordinator.swift in Sources */,
 				728EBEF32133937C00F13E10 /* RoundView.swift in Sources */,
@@ -878,12 +888,14 @@
 				725CFF0121329CFD004C60C7 /* EndpointPaging.swift in Sources */,
 				725CFF292132B647004C60C7 /* SessionService.swift in Sources */,
 				725CFF382132CD4D004C60C7 /* AppCoordinator.swift in Sources */,
+				72363B1121341A4B008BB108 /* UIAlertController+Extensions.swift in Sources */,
 				725CFEFD21328FBB004C60C7 /* Quote.swift in Sources */,
 				725CFF302132CC3A004C60C7 /* LoginController.swift in Sources */,
 				728EBED6213371C300F13E10 /* EagleQuoteAPI.swift in Sources */,
 				725CFEF321328180004C60C7 /* Premiums.swift in Sources */,
 				725CFF362132CD1F004C60C7 /* BaseCoordinator.swift in Sources */,
 				728EBEDC213378F900F13E10 /* APIService.swift in Sources */,
+				72363B13213422FF008BB108 /* Error+Extensions.swift in Sources */,
 				725CFF0B2132A1B0004C60C7 /* QuotesResult.swift in Sources */,
 				725CFF0D2132A30B004C60C7 /* Authorization.swift in Sources */,
 				725CFF132132A52A004C60C7 /* User.swift in Sources */,
