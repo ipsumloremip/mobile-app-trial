@@ -87,6 +87,11 @@
 		728EBEE021337F0D00F13E10 /* APIServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728EBEDF21337F0D00F13E10 /* APIServiceTests.swift */; };
 		728EBEE2213383D500F13E10 /* Quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = 728EBEE1213383D500F13E10 /* Quotes.json */; };
 		728EBEE621338D2700F13E10 /* AuthorizedAPIServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728EBEE521338D2700F13E10 /* AuthorizedAPIServiceTests.swift */; };
+		728EBEF12133937C00F13E10 /* FabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728EBEEB2133937C00F13E10 /* FabButton.swift */; };
+		728EBEF22133937C00F13E10 /* RoundedCornersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728EBEED2133937C00F13E10 /* RoundedCornersView.swift */; };
+		728EBEF32133937C00F13E10 /* RoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728EBEEE2133937C00F13E10 /* RoundView.swift */; };
+		728EBEF42133937C00F13E10 /* RoundedCornersProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728EBEEF2133937C00F13E10 /* RoundedCornersProtocol.swift */; };
+		728EBEF52133937C00F13E10 /* RoundedCornersButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728EBEF02133937C00F13E10 /* RoundedCornersButton.swift */; };
 		728EBEF7213395A800F13E10 /* UIColor+EagleQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728EBEF6213395A800F13E10 /* UIColor+EagleQuote.swift */; };
 		72C4A4D421325DDA005383F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C4A4D321325DDA005383F0 /* AppDelegate.swift */; };
 		72C4A4DB21325DDA005383F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72C4A4DA21325DDA005383F0 /* Assets.xcassets */; };
@@ -195,6 +200,11 @@
 		728EBEDF21337F0D00F13E10 /* APIServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceTests.swift; sourceTree = "<group>"; };
 		728EBEE1213383D500F13E10 /* Quotes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Quotes.json; sourceTree = "<group>"; };
 		728EBEE521338D2700F13E10 /* AuthorizedAPIServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizedAPIServiceTests.swift; sourceTree = "<group>"; };
+		728EBEEB2133937C00F13E10 /* FabButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FabButton.swift; sourceTree = "<group>"; };
+		728EBEED2133937C00F13E10 /* RoundedCornersView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedCornersView.swift; sourceTree = "<group>"; };
+		728EBEEE2133937C00F13E10 /* RoundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundView.swift; sourceTree = "<group>"; };
+		728EBEEF2133937C00F13E10 /* RoundedCornersProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedCornersProtocol.swift; sourceTree = "<group>"; };
+		728EBEF02133937C00F13E10 /* RoundedCornersButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedCornersButton.swift; sourceTree = "<group>"; };
 		728EBEF6213395A800F13E10 /* UIColor+EagleQuote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+EagleQuote.swift"; sourceTree = "<group>"; };
 		72C4A4D021325DDA005383F0 /* Eagle Quote Alvin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eagle Quote Alvin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		72C4A4D321325DDA005383F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -448,6 +458,34 @@
 			path = API;
 			sourceTree = "<group>";
 		};
+		728EBEE92133933D00F13E10 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				728EBEEA2133937C00F13E10 /* FabButton */,
+				728EBEEC2133937C00F13E10 /* Round */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		728EBEEA2133937C00F13E10 /* FabButton */ = {
+			isa = PBXGroup;
+			children = (
+				728EBEEB2133937C00F13E10 /* FabButton.swift */,
+			);
+			path = FabButton;
+			sourceTree = "<group>";
+		};
+		728EBEEC2133937C00F13E10 /* Round */ = {
+			isa = PBXGroup;
+			children = (
+				728EBEED2133937C00F13E10 /* RoundedCornersView.swift */,
+				728EBEEE2133937C00F13E10 /* RoundView.swift */,
+				728EBEEF2133937C00F13E10 /* RoundedCornersProtocol.swift */,
+				728EBEF02133937C00F13E10 /* RoundedCornersButton.swift */,
+			);
+			path = Round;
+			sourceTree = "<group>";
+		};
 		72C4A4C721325DDA005383F0 = {
 			isa = PBXGroup;
 			children = (
@@ -475,6 +513,7 @@
 			children = (
 				725CFF342132CCFF004C60C7 /* App */,
 				725CFF2D2132CC0D004C60C7 /* Scenes */,
+				728EBEE92133933D00F13E10 /* Components */,
 				725CFF202132B2E3004C60C7 /* Services */,
 				725EAD4021327621000F4676 /* Models */,
 				725CFF1C2132B204004C60C7 /* Utils */,
@@ -820,16 +859,21 @@
 				725CFF0521329EBB004C60C7 /* EndpointResponse.swift in Sources */,
 				728EBEDE21337C4B00F13E10 /* AuthorizedAPIService.swift in Sources */,
 				725CFF1E2132B216004C60C7 /* ScrollViewController.swift in Sources */,
+				728EBEF12133937C00F13E10 /* FabButton.swift in Sources */,
+				728EBEF52133937C00F13E10 /* RoundedCornersButton.swift in Sources */,
 				728EBED32133717000F13E10 /* APIServiceType.swift in Sources */,
 				728EBEF7213395A800F13E10 /* UIColor+EagleQuote.swift in Sources */,
 				728EBEDA213377BF00F13E10 /* AuthorizedAPIServiceType.swift in Sources */,
 				728EBED82133721400F13E10 /* AuthorizedEagleQuoteAPI.swift in Sources */,
 				72C4A4D421325DDA005383F0 /* AppDelegate.swift in Sources */,
 				725EAD4521327801000F4676 /* AccessToken.swift in Sources */,
+				728EBEF42133937C00F13E10 /* RoundedCornersProtocol.swift in Sources */,
 				725CFF1B2132AA87004C60C7 /* QuoteEmail.swift in Sources */,
+				728EBEF22133937C00F13E10 /* RoundedCornersView.swift in Sources */,
 				725CFEF72132841F004C60C7 /* Client.swift in Sources */,
 				725CFF272132B522004C60C7 /* ViewService.swift in Sources */,
 				725CFF3B2132CE51004C60C7 /* LoginCoordinator.swift in Sources */,
+				728EBEF32133937C00F13E10 /* RoundView.swift in Sources */,
 				725CFF242132B333004C60C7 /* KeychainService.swift in Sources */,
 				725CFF0121329CFD004C60C7 /* EndpointPaging.swift in Sources */,
 				725CFF292132B647004C60C7 /* SessionService.swift in Sources */,
