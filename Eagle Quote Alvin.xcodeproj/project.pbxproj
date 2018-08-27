@@ -104,6 +104,7 @@
 		72DA49F82134310C00C70E5A /* DashboardCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA49F72134310C00C70E5A /* DashboardCoordinator.swift */; };
 		72DA49FA2134315000C70E5A /* DashboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA49F92134315000C70E5A /* DashboardController.swift */; };
 		72DA49FC2134317200C70E5A /* DashboardController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72DA49FB2134317200C70E5A /* DashboardController.xib */; };
+		72DA49FE2134354A00C70E5A /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA49FD2134354A00C70E5A /* UIImage+Extensions.swift */; };
 		72DA4A0021343A6C00C70E5A /* AppearanceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA49FF21343A6C00C70E5A /* AppearanceService.swift */; };
 		72F318DB21340BAE00AFC972 /* String+Validations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F318DA21340BAE00AFC972 /* String+Validations.swift */; };
 		DA8C35D342D1B6FAA117CC7A /* Pods_Eagle_Quote_Alvin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA1F953851AB9D585373A30 /* Pods_Eagle_Quote_Alvin.framework */; };
@@ -231,6 +232,7 @@
 		72DA49F72134310C00C70E5A /* DashboardCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardCoordinator.swift; sourceTree = "<group>"; };
 		72DA49F92134315000C70E5A /* DashboardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardController.swift; sourceTree = "<group>"; };
 		72DA49FB2134317200C70E5A /* DashboardController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DashboardController.xib; sourceTree = "<group>"; };
+		72DA49FD2134354A00C70E5A /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
 		72DA49FF21343A6C00C70E5A /* AppearanceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearanceService.swift; sourceTree = "<group>"; };
 		72F318DA21340BAE00AFC972 /* String+Validations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Validations.swift"; sourceTree = "<group>"; };
 		797F9F2ACC67F4AFA3B5E635 /* Pods_Eagle_Quote_AlvinUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eagle_Quote_AlvinUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -351,6 +353,7 @@
 				72F318DA21340BAE00AFC972 /* String+Validations.swift */,
 				72363B1021341A4B008BB108 /* UIAlertController+Extensions.swift */,
 				72363B12213422FF008BB108 /* Error+Extensions.swift */,
+				72DA49FD2134354A00C70E5A /* UIImage+Extensions.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -925,6 +928,7 @@
 				728EBEDC213378F900F13E10 /* APIService.swift in Sources */,
 				72363B13213422FF008BB108 /* Error+Extensions.swift in Sources */,
 				725CFF0B2132A1B0004C60C7 /* QuotesResult.swift in Sources */,
+				72DA49FE2134354A00C70E5A /* UIImage+Extensions.swift in Sources */,
 				725CFF0D2132A30B004C60C7 /* Authorization.swift in Sources */,
 				725CFF132132A52A004C60C7 /* User.swift in Sources */,
 			);
