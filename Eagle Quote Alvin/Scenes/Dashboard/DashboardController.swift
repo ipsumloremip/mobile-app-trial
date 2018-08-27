@@ -11,6 +11,8 @@ import UIKit
 
 class DashboardController: UIViewController {
   
+  var fabButton = FabButton()
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     
@@ -20,6 +22,7 @@ class DashboardController: UIViewController {
   private func setup() {
     title = "Dashboard"
     setupNavbar()
+    attach(fabButton: fabButton)
   }
   
   private func setupNavbar() {
