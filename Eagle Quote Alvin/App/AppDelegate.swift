@@ -15,9 +15,10 @@ class AppDelegate: PluggableApplicationDelegate {
   
   let viewService = ViewService()
   let keychainService = KeychainService()
+  let sessionService = SessionService()
 
   override var services: [ApplicationService] {
-    return [viewService, keychainService]
+    return [viewService, keychainService, sessionService]
   }
 
 }

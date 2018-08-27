@@ -25,7 +25,7 @@ class SessionService: NSObject, ApplicationService {
     return true
   }
   
-  var token: String? {
+  private(set) var token: String? {
     get {
       return UIApplication.shared.appDelegate.keychainService.get(Keys.AccessToken)
     }
@@ -54,6 +54,15 @@ class SessionService: NSObject, ApplicationService {
         self.user = nil
       }
     }
+  }
+  
+}
+
+extension SessionService {
+  
+  func login(user: User, with authorization: Authorization) {
+    self.user = user
+    self.token = authorization.token
   }
   
 }
