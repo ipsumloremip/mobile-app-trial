@@ -50,7 +50,7 @@ class APIServiceTests: QuickSpec {
           let logoutObservable = apiService.logout(email: "alvinjaycosare@gmail.com", token: token)
           let logoutCalls = try! logoutObservable.toBlocking().toArray()
           
-          expect(logoutCalls.count == 1)
+          expect(logoutCalls.count) == 1
           
         }
         

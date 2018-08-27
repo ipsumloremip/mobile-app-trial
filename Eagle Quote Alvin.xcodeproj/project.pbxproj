@@ -431,6 +431,23 @@
 			path = Authorized;
 			sourceTree = "<group>";
 		};
+		728EBEE72133904800F13E10 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				728EBEE82133905800F13E10 /* API */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		728EBEE82133905800F13E10 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				728EBEDF21337F0D00F13E10 /* APIServiceTests.swift */,
+				728EBEE521338D2700F13E10 /* AuthorizedAPIServiceTests.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		72C4A4C721325DDA005383F0 = {
 			isa = PBXGroup;
 			children = (
@@ -472,9 +489,8 @@
 		72C4A4E721325DDA005383F0 /* Eagle Quote AlvinTests */ = {
 			isa = PBXGroup;
 			children = (
+				728EBEE72133904800F13E10 /* Services */,
 				725EAD4121327670000F4676 /* Models */,
-				728EBEDF21337F0D00F13E10 /* APIServiceTests.swift */,
-				728EBEE521338D2700F13E10 /* AuthorizedAPIServiceTests.swift */,
 				72C4A4E821325DDA005383F0 /* Eagle_Quote_AlvinTests.swift */,
 				72C4A4EA21325DDA005383F0 /* Info.plist */,
 			);

@@ -46,7 +46,7 @@ class AuthorizedAPIServiceTests: QuickSpec {
           let sendEmailObservable = apiService.sendEmail(emailPayload: DummyData.QuoteEmail().object)
           let sendEmailCalls = try! sendEmailObservable.toBlocking().toArray()
           
-          expect(sendEmailCalls.count == 1)
+          expect(sendEmailCalls.count) == 1
           
         }
         
