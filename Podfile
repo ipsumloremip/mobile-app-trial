@@ -30,6 +30,8 @@ target 'Eagle Quote Alvin' do
     pod 'Quick'
     pod 'Nimble'
 
+    pod 'RxBlocking'
+
   end
 
   target 'Eagle Quote AlvinUITests' do
