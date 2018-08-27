@@ -21,6 +21,7 @@ class LoginCoordinator: BaseCoordinator<Void> {
   override func start() -> Observable<Void> {
     let vc = LoginController(nibName: "LoginController", bundle: nil)
     let nc = UINavigationController(rootViewController: vc)
+    nc.isNavigationBarHidden = true
     
     window?.rootViewController = nc
     
