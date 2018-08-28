@@ -261,6 +261,7 @@
 		72DA49FD2134354A00C70E5A /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
 		72DA49FF21343A6C00C70E5A /* AppearanceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearanceService.swift; sourceTree = "<group>"; };
 		72DA4A012134400900C70E5A /* UIViewController+FabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+FabButton.swift"; sourceTree = "<group>"; };
+		72DA4A032134428400C70E5A /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
 		72DA4A07213444F400C70E5A /* DashboardClientCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardClientCell.swift; sourceTree = "<group>"; };
 		72DA4A092134450E00C70E5A /* DashboardClientCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardClientCellViewModel.swift; sourceTree = "<group>"; };
 		72DA4A0B2134455400C70E5A /* DashboardClientCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DashboardClientCell.xib; sourceTree = "<group>"; };
@@ -629,6 +630,7 @@
 				72DA49F72134310C00C70E5A /* DashboardCoordinator.swift */,
 				72DA49F92134315000C70E5A /* DashboardController.swift */,
 				72DA49FB2134317200C70E5A /* DashboardController.xib */,
+				72DA4A032134428400C70E5A /* DashboardViewModel.swift */,
 				72DA4A05213444DE00C70E5A /* Table */,
 			);
 			path = Dashboard;
@@ -1002,6 +1004,7 @@
 				725CFF242132B333004C60C7 /* KeychainService.swift in Sources */,
 				725CFF0121329CFD004C60C7 /* EndpointPaging.swift in Sources */,
 				725CFF292132B647004C60C7 /* SessionService.swift in Sources */,
+				72DA4A042134428400C70E5A /* DashboardViewModel.swift in Sources */,
 				72DA4A022134400900C70E5A /* UIViewController+FabButton.swift in Sources */,
 				723C4F562134D35D00BF16CA /* DashboardQuoteSectionHeaderViewModel.swift in Sources */,
 				725CFF382132CD4D004C60C7 /* AppCoordinator.swift in Sources */,
