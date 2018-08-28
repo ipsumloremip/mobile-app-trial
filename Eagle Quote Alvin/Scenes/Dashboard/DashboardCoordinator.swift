@@ -24,11 +24,30 @@ class DashboardCoordinator: BaseCoordinator<Void> {
     let vc = DashboardController(nibName: "DashboardController", bundle: nil)
     vc.viewModel = vm
     
+    vm.output.didTapQuoteCellOptions
+      .observeOn(MainScheduler.instance)
+      .subscribe(onNext: { [weak self] quote in
+        self?.showActionSheet(for: quote)
+      })
+      .disposed(by: disposeBag)
+    
     let nc = UINavigationController(rootViewController: vc)
     
     window?.rootViewController = nc
     
     return Observable.never()
+  }
+  
+}
+
+extension DashboardCoordinator {
+  
+  fileprivate func showActionSheet(for quote: Quote) {
+    let ac = UIAlertController.actionSheet()
+    ac.addAction(UIAlertAction(title: "Send Quote by Email", style: .default , handler:{  _ in
+      // TODO
+    }))
+    self.window!.rootViewController!.present(ac, animated: true)
   }
   
 }

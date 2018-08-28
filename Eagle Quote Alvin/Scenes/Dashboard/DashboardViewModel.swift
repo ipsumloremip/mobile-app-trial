@@ -19,6 +19,7 @@ protocol DashboardViewModelInput {
 protocol DashboardViewModelOutput {
   var isRefreshing: Observable<Bool> { get }
   var sectionViewModels: Observable<[DashboardQuoteSectionViewModelType]>! { get }
+  var didTapQuoteCellOptions: Observable<Quote>! { get }
 }
 
 protocol DashboardViewModelType {
@@ -37,11 +38,14 @@ class DashboardViewModel: DashboardViewModelType, DashboardViewModelInput, Dashb
   // MARK: Outputs
   var isRefreshing: Observable<Bool>
   var sectionViewModels: Observable<[DashboardQuoteSectionViewModelType]>!
+  var didTapQuoteCellOptions: Observable<Quote>!
 
   private let refreshProperty: AnyObserver<Bool>
 
   private var page = 1
   private let perPage = 20
+
+  private let disposeBag = DisposeBag()
 
   init(service: AuthorizedAPIServiceType = AuthorizedAPIService()) {
 
@@ -85,6 +89,9 @@ class DashboardViewModel: DashboardViewModelType, DashboardViewModelInput, Dashb
 
     }
 
+    
+    let _didTapQuoteCellOptions = PublishSubject<Quote>()
+    self.didTapQuoteCellOptions = _didTapQuoteCellOptions.asObservable()
 
     self.sectionViewModels = Observable.merge(requestFirst, requestNext)
       .map { [weak self] quotes -> [Quote] in
@@ -104,9 +111,19 @@ class DashboardViewModel: DashboardViewModelType, DashboardViewModelInput, Dashb
               }
               .map { cellVMs in
                 return DashboardQuoteSectionViewModel(cellViewModels: cellVMs)
-              }!
+            }!
         }
-    }
+      }
+      .do(onNext: { [weak self] svms in
+        guard let s = self else { return }
+        svms.forEach {
+          $0.output.didTapQuoteCellOptions
+            .subscribe(onNext: { quote in
+              _didTapQuoteCellOptions.onNext(quote)
+            })
+            .disposed(by: s.disposeBag)
+        }
+      })
 
 
   }
