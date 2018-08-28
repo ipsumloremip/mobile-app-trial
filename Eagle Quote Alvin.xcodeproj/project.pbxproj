@@ -62,6 +62,7 @@
 		723C4F612134FFB400BF16CA /* SendQuoteEmailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 723C4F602134FFB400BF16CA /* SendQuoteEmailController.xib */; };
 		723C4F632135023900BF16CA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723C4F622135023900BF16CA /* Constants.swift */; };
 		723C4F652135045700BF16CA /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723C4F642135045700BF16CA /* Date+Extensions.swift */; };
+		723C4F6721351C2800BF16CA /* SendQuoteEmailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723C4F6621351C2800BF16CA /* SendQuoteEmailViewModel.swift */; };
 		7244F8F32133D06B00D70AA0 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7244F8F22133D06B00D70AA0 /* LoginViewModel.swift */; };
 		72487D612133835C00751E11 /* Login.json in Resources */ = {isa = PBXBuildFile; fileRef = 72487D602133835C00751E11 /* Login.json */; };
 		725CFEF321328180004C60C7 /* Premiums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725CFEF221328180004C60C7 /* Premiums.swift */; };
@@ -205,6 +206,7 @@
 		723C4F602134FFB400BF16CA /* SendQuoteEmailController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SendQuoteEmailController.xib; sourceTree = "<group>"; };
 		723C4F622135023900BF16CA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		723C4F642135045700BF16CA /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		723C4F6621351C2800BF16CA /* SendQuoteEmailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendQuoteEmailViewModel.swift; sourceTree = "<group>"; };
 		7244F8F22133D06B00D70AA0 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		72487D602133835C00751E11 /* Login.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Login.json; sourceTree = "<group>"; };
 		725CFEF221328180004C60C7 /* Premiums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Premiums.swift; sourceTree = "<group>"; };
@@ -405,6 +407,7 @@
 			children = (
 				723C4F5C2134FF7900BF16CA /* SendQuoteEmailCoordinator.swift */,
 				723C4F5E2134FFAC00BF16CA /* SendQuoteEmailController.swift */,
+				723C4F6621351C2800BF16CA /* SendQuoteEmailViewModel.swift */,
 				723C4F602134FFB400BF16CA /* SendQuoteEmailController.xib */,
 			);
 			path = SendQuoteEmail;
@@ -1043,6 +1046,7 @@
 				725CFF382132CD4D004C60C7 /* AppCoordinator.swift in Sources */,
 				72363B1121341A4B008BB108 /* UIAlertController+Extensions.swift in Sources */,
 				72DA4A0A2134450E00C70E5A /* DashboardClientCellViewModel.swift in Sources */,
+				723C4F6721351C2800BF16CA /* SendQuoteEmailViewModel.swift in Sources */,
 				725CFEFD21328FBB004C60C7 /* Quote.swift in Sources */,
 				725CFF302132CC3A004C60C7 /* LoginController.swift in Sources */,
 				728EBED6213371C300F13E10 /* EagleQuoteAPI.swift in Sources */,
