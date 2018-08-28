@@ -1,6 +1,7 @@
 PODS:
   - Alamofire (4.7.3)
   - KeychainAccess (3.1.1)
+  - KSTokenView (4.0.1)
   - MaterialComponents/Buttons (60.1.0):
     - MaterialComponents/Ink
     - MaterialComponents/private/Math
@@ -45,9 +46,11 @@ PODS:
   - RxSwift (4.2.0)
   - SnapKit (4.0.0)
   - Timepiece (1.3.1)
+  - "UITextView+Placeholder (1.2.1)"
 
 DEPENDENCIES:
   - KeychainAccess
+  - KSTokenView
   - MaterialComponents/Buttons
   - Moya/RxSwift
   - Nimble
@@ -59,11 +62,13 @@ DEPENDENCIES:
   - RxSwift
   - SnapKit
   - Timepiece
+  - "UITextView+Placeholder"
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
     - KeychainAccess
+    - KSTokenView
     - MaterialComponents
     - MDFInternationalization
     - MDFTextAccessibility
@@ -78,10 +83,12 @@ SPEC REPOS:
     - RxSwift
     - SnapKit
     - Timepiece
+    - "UITextView+Placeholder"
 
 SPEC CHECKSUMS:
   Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
   KeychainAccess: 7bd430028059754a3debab3cfc0bd1fc7fb85df3
+  KSTokenView: 73bd70340b9f64b8324a55e5be5e9bd94a4d139e
   MaterialComponents: bd1ebf279041919605fe6133a4173db4148ec1cd
   MDFInternationalization: b5b8626628abf026e630e5ebaeee563037712cbb
   MDFTextAccessibility: 94098925e0853551c5a311ce7c1ecefbe297cdb6
@@ -96,7 +103,8 @@ SPEC CHECKSUMS:
   RxSwift: 99e10317ddfcc7fbe01356aafd118fde4a0be104
   SnapKit: a42d492c16e80209130a3379f73596c3454b7694
   Timepiece: c0760ec0e545697d86b80424dcd2b4d5ef66cf51
+  "UITextView+Placeholder": 0c3efd97f37ea64bde7f34cc6e90fe02e87b3909
 
-PODFILE CHECKSUM: 43b533c2cab508cf5bb03336eada2b508b8f76df
+PODFILE CHECKSUM: eccf1792cb0f12acb517afacbfc20e35260f73b8
 
 COCOAPODS: 1.5.3

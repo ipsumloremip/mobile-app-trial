@@ -10,6 +10,8 @@ target 'Eagle Quote Alvin' do
   # UI
   pod 'SnapKit'
   pod 'MaterialComponents/Buttons'
+  pod 'UITextView+Placeholder'
+  pod 'KSTokenView'
   
   # Rx
   pod 'RxCocoa'
