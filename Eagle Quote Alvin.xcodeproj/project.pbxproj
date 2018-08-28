@@ -47,6 +47,11 @@
 		7230CBD92132659E000176D5 /* SFText-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7230CB982132656A000176D5 /* SFText-SemiboldItalic.otf */; };
 		72363B1121341A4B008BB108 /* UIAlertController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72363B1021341A4B008BB108 /* UIAlertController+Extensions.swift */; };
 		72363B13213422FF008BB108 /* Error+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72363B12213422FF008BB108 /* Error+Extensions.swift */; };
+		723C4F452134CEB600BF16CA /* CellRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723C4F442134CEB600BF16CA /* CellRepresentable.swift */; };
+		723C4F472134CEFB00BF16CA /* SectionRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723C4F462134CEFB00BF16CA /* SectionRepresentable.swift */; };
+		723C4F492134CF1900BF16CA /* GenericTableCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723C4F482134CF1900BF16CA /* GenericTableCoordinator.swift */; };
+		723C4F4B2134CF2C00BF16CA /* GenericTableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723C4F4A2134CF2C00BF16CA /* GenericTableDataSource.swift */; };
+		723C4F4D2134CF4600BF16CA /* GenericTableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723C4F4C2134CF4600BF16CA /* GenericTableDelegate.swift */; };
 		7244F8F32133D06B00D70AA0 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7244F8F22133D06B00D70AA0 /* LoginViewModel.swift */; };
 		72487D612133835C00751E11 /* Login.json in Resources */ = {isa = PBXBuildFile; fileRef = 72487D602133835C00751E11 /* Login.json */; };
 		725CFEF321328180004C60C7 /* Premiums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725CFEF221328180004C60C7 /* Premiums.swift */; };
@@ -107,6 +112,10 @@
 		72DA49FE2134354A00C70E5A /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA49FD2134354A00C70E5A /* UIImage+Extensions.swift */; };
 		72DA4A0021343A6C00C70E5A /* AppearanceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA49FF21343A6C00C70E5A /* AppearanceService.swift */; };
 		72DA4A022134400900C70E5A /* UIViewController+FabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA4A012134400900C70E5A /* UIViewController+FabButton.swift */; };
+		72DA4A042134428400C70E5A /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA4A032134428400C70E5A /* DashboardViewModel.swift */; };
+		72DA4A08213444F400C70E5A /* DashboardClientCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA4A07213444F400C70E5A /* DashboardClientCell.swift */; };
+		72DA4A0A2134450E00C70E5A /* DashboardClientCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA4A092134450E00C70E5A /* DashboardClientCellViewModel.swift */; };
+		72DA4A0C2134455400C70E5A /* DashboardClientCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72DA4A0B2134455400C70E5A /* DashboardClientCell.xib */; };
 		72F318DB21340BAE00AFC972 /* String+Validations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F318DA21340BAE00AFC972 /* String+Validations.swift */; };
 		DA8C35D342D1B6FAA117CC7A /* Pods_Eagle_Quote_Alvin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA1F953851AB9D585373A30 /* Pods_Eagle_Quote_Alvin.framework */; };
 /* End PBXBuildFile section */
@@ -170,6 +179,11 @@
 		7230CBB52132656F000176D5 /* SFText-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFText-MediumItalic.otf"; sourceTree = "<group>"; };
 		72363B1021341A4B008BB108 /* UIAlertController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Extensions.swift"; sourceTree = "<group>"; };
 		72363B12213422FF008BB108 /* Error+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Error+Extensions.swift"; sourceTree = "<group>"; };
+		723C4F442134CEB600BF16CA /* CellRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellRepresentable.swift; sourceTree = "<group>"; };
+		723C4F462134CEFB00BF16CA /* SectionRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionRepresentable.swift; sourceTree = "<group>"; };
+		723C4F482134CF1900BF16CA /* GenericTableCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericTableCoordinator.swift; sourceTree = "<group>"; };
+		723C4F4A2134CF2C00BF16CA /* GenericTableDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericTableDataSource.swift; sourceTree = "<group>"; };
+		723C4F4C2134CF4600BF16CA /* GenericTableDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericTableDelegate.swift; sourceTree = "<group>"; };
 		7244F8F22133D06B00D70AA0 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		72487D602133835C00751E11 /* Login.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Login.json; sourceTree = "<group>"; };
 		725CFEF221328180004C60C7 /* Premiums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Premiums.swift; sourceTree = "<group>"; };
@@ -350,6 +364,7 @@
 		725CFF1C2132B204004C60C7 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				723C4F432134CE3A00BF16CA /* GenericTable */,
 				725CFF1D2132B216004C60C7 /* ScrollViewController.swift */,
 				728EBEF6213395A800F13E10 /* UIColor+EagleQuote.swift */,
 				72F318DA21340BAE00AFC972 /* String+Validations.swift */,
@@ -908,11 +923,14 @@
 				72DA4A0021343A6C00C70E5A /* AppearanceService.swift in Sources */,
 				72DA49F82134310C00C70E5A /* DashboardCoordinator.swift in Sources */,
 				72C4A4D421325DDA005383F0 /* AppDelegate.swift in Sources */,
+				723C4F4D2134CF4600BF16CA /* GenericTableDelegate.swift in Sources */,
 				725EAD4521327801000F4676 /* AccessToken.swift in Sources */,
 				728EBEF42133937C00F13E10 /* RoundedCornersProtocol.swift in Sources */,
+				723C4F492134CF1900BF16CA /* GenericTableCoordinator.swift in Sources */,
 				725CFF1B2132AA87004C60C7 /* QuoteEmail.swift in Sources */,
 				728EBEF22133937C00F13E10 /* RoundedCornersView.swift in Sources */,
 				725CFEF72132841F004C60C7 /* Client.swift in Sources */,
+				723C4F472134CEFB00BF16CA /* SectionRepresentable.swift in Sources */,
 				72F318DB21340BAE00AFC972 /* String+Validations.swift in Sources */,
 				725CFF272132B522004C60C7 /* ViewService.swift in Sources */,
 				72DA49FA2134315000C70E5A /* DashboardController.swift in Sources */,
@@ -927,6 +945,8 @@
 				725CFEFD21328FBB004C60C7 /* Quote.swift in Sources */,
 				725CFF302132CC3A004C60C7 /* LoginController.swift in Sources */,
 				728EBED6213371C300F13E10 /* EagleQuoteAPI.swift in Sources */,
+				723C4F4B2134CF2C00BF16CA /* GenericTableDataSource.swift in Sources */,
+				723C4F452134CEB600BF16CA /* CellRepresentable.swift in Sources */,
 				725CFEF321328180004C60C7 /* Premiums.swift in Sources */,
 				725CFF362132CD1F004C60C7 /* BaseCoordinator.swift in Sources */,
 				728EBEDC213378F900F13E10 /* APIService.swift in Sources */,
