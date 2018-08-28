@@ -115,7 +115,7 @@
                                     <rect key="frame" x="0.0" y="185" width="375" height="216"/>
                                     <subviews>
                                         <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" scrollEnabled="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="YM9-ce-6Hk">
-                                            <rect key="frame" x="16" y="8" width="343" height="200"/>
+                                            <rect key="frame" x="12" y="8" width="347" height="200"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="200" id="mIu-vw-YuQ"/>
@@ -133,7 +133,7 @@ Alvin Jay Cosare</string>
                                         <constraint firstAttribute="bottom" secondItem="YM9-ce-6Hk" secondAttribute="bottom" constant="8" id="1gg-EK-ZNJ"/>
                                         <constraint firstAttribute="trailing" secondItem="YM9-ce-6Hk" secondAttribute="trailing" constant="16" id="GzL-bn-ZY6"/>
                                         <constraint firstItem="YM9-ce-6Hk" firstAttribute="top" secondItem="lRM-vk-Gke" secondAttribute="top" constant="8" id="KUx-Uh-0iu"/>
-                                        <constraint firstItem="YM9-ce-6Hk" firstAttribute="leading" secondItem="lRM-vk-Gke" secondAttribute="leading" constant="16" id="dUn-Bj-tAB"/>
+                                        <constraint firstItem="YM9-ce-6Hk" firstAttribute="leading" secondItem="lRM-vk-Gke" secondAttribute="leading" constant="12" id="dUn-Bj-tAB"/>
                                     </constraints>
                                 </view>
                             </subviews>
@@ -157,6 +157,7 @@ Alvin Jay Cosare</string>
                 <constraint firstItem="g4j-72-Wvb" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="x6u-Uw-Su2"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="26.5" y="52.5"/>
         </view>
     </objects>
 </document>

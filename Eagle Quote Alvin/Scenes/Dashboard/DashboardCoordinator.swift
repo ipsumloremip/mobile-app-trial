@@ -51,7 +51,7 @@ extension DashboardCoordinator {
   }
   
   fileprivate func showSendEmailPage(for quote: Quote) {
-    let sendEmailCoordinator = SendQuoteEmailCoordinator(window: window)
+    let sendEmailCoordinator = SendQuoteEmailCoordinator(window: window, quote: quote)
     coordinate(to: sendEmailCoordinator)
       .subscribe()
       .disposed(by: disposeBag)
