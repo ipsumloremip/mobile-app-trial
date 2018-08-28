@@ -70,7 +70,6 @@ class SendQuoteEmailController: ScrollViewController {
 
   private func setupNavbar() {
     title = "Send by Email"
-    // TODO action
     let airplaneBarButton = UIBarButtonItem(image: #imageLiteral(resourceName: "ic-plane"), style: .plain, target: self, action: nil)
     navigationItem.rightBarButtonItem = airplaneBarButton
     self.airplaneBarButton = airplaneBarButton
