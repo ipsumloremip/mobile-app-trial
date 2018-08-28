@@ -14,12 +14,14 @@ import Moya
 protocol DashboardViewModelInput {
   func refresh()
   var loadMore: AnyObserver<Bool> { get }
+  var drawerButtonTapped: AnyObserver<Void> { get }
 }
 
 protocol DashboardViewModelOutput {
   var isRefreshing: Observable<Bool> { get }
   var sectionViewModels: Observable<[DashboardQuoteSectionViewModelType]>! { get }
   var didTapQuoteCellOptions: Observable<Quote>! { get }
+  var didTapDrawerButton: Observable<Void> { get }
 }
 
 protocol DashboardViewModelType {
@@ -34,11 +36,13 @@ class DashboardViewModel: DashboardViewModelType, DashboardViewModelInput, Dashb
 
   // MARK: Inputs
   var loadMore: AnyObserver<Bool>
+  var drawerButtonTapped: AnyObserver<Void>
 
   // MARK: Outputs
   var isRefreshing: Observable<Bool>
   var sectionViewModels: Observable<[DashboardQuoteSectionViewModelType]>!
   var didTapQuoteCellOptions: Observable<Quote>!
+  var didTapDrawerButton: Observable<Void>
 
   private let refreshProperty: AnyObserver<Bool>
 
@@ -53,6 +57,10 @@ class DashboardViewModel: DashboardViewModelType, DashboardViewModelInput, Dashb
 
     let _loadMore = BehaviorSubject<Bool>(value: false)
     self.loadMore = _loadMore.asObserver()
+    
+    let _drawerButtonTapped = PublishSubject<Void>()
+    self.drawerButtonTapped = _drawerButtonTapped.asObserver()
+    self.didTapDrawerButton = _drawerButtonTapped.asObservable()
 
     let _refreshProperty = PublishSubject<Bool>()
     self.refreshProperty = _refreshProperty.asObserver()
@@ -65,14 +73,15 @@ class DashboardViewModel: DashboardViewModelType, DashboardViewModelInput, Dashb
         return service.fetchQuotes(page: 1, perPage: s.perPage)
           .catchError { [weak self] error in
             self?.refreshProperty.onNext(false)
-            return Observable.empty()
+            return .empty()
           }
           .map { $0.quotes }
 
       }
+      .filterEmpty()
       .do (onNext: { [weak self] _ in
         quotesArray = []
-        self?.page = 1
+        self?.page = 2
       })
 
     let requestNext = _loadMore
@@ -83,13 +92,16 @@ class DashboardViewModel: DashboardViewModelType, DashboardViewModelInput, Dashb
         return service.fetchQuotes(page: s.page, perPage: s.perPage)
           .catchError { [weak self] error in
             self?.refreshProperty.onNext(false)
-            return Observable.empty()
+            return .empty()
           }
           .map { $0.quotes }
+      }
+      .filterEmpty()
+      .do (onNext: { [weak self] _ in
+        self?.page += 1
+      })
 
-    }
 
-    
     let _didTapQuoteCellOptions = PublishSubject<Quote>()
     self.didTapQuoteCellOptions = _didTapQuoteCellOptions.asObservable()
 
@@ -102,8 +114,16 @@ class DashboardViewModel: DashboardViewModelType, DashboardViewModelInput, Dashb
         return quotesArray
       }
       .map { quotes -> [DashboardQuoteSectionViewModelType] in
+        
         let groupDict = Dictionary(grouping: quotes, by: { q in return q.createdAtDateOnly ?? "" })
-        return Array(groupDict.keys.map { groupDict[$0] })
+        
+        let sortedKeys = groupDict.keys.sorted(by: { d1, d2 in
+          let df = DateFormatter()
+          df.dateStyle = .short
+          return df.date(from: d1)! < df.date(from: d2)!
+        })
+        
+        return Array(sortedKeys.map { groupDict[$0] })
           .map { groupedQuotes in
             return groupedQuotes
               .map { quotes in
@@ -116,6 +136,7 @@ class DashboardViewModel: DashboardViewModelType, DashboardViewModelInput, Dashb
       }
       .do(onNext: { [weak self] svms in
         guard let s = self else { return }
+        s.refreshProperty.onNext(false)
         svms.forEach {
           $0.output.didTapQuoteCellOptions
             .subscribe(onNext: { quote in

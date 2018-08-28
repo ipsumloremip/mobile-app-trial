@@ -13,6 +13,8 @@ import RxSwift
 class LoginCoordinator: BaseCoordinator<Void> {
 
   private weak var window: UIWindow?
+  
+  private var result = PublishSubject<Void>()
 
   init(window: UIWindow?) {
     self.window = window
@@ -44,7 +46,7 @@ class LoginCoordinator: BaseCoordinator<Void> {
 
     window?.rootViewController = nc
 
-    return Observable.never()
+    return result
   }
 
 }
@@ -62,7 +64,7 @@ extension LoginCoordinator {
   fileprivate func showDashboard() {
     let dashboardCoordinator = DashboardCoordinator(window: window)
     coordinate(to: dashboardCoordinator)
-      .subscribe()
+      .bind(to: result)
       .disposed(by: disposeBag)
   }
   
