@@ -20,7 +20,10 @@ class DashboardCoordinator: BaseCoordinator<Void> {
   
   override func start() -> Observable<Void> {
     
+    let vm = DashboardViewModel()
     let vc = DashboardController(nibName: "DashboardController", bundle: nil)
+    vc.viewModel = vm
+    
     let nc = UINavigationController(rootViewController: vc)
     
     window?.rootViewController = nc
