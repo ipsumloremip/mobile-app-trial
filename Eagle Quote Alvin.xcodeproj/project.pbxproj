@@ -58,6 +58,7 @@
 		723C4F562134D35D00BF16CA /* DashboardQuoteSectionHeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723C4F552134D35D00BF16CA /* DashboardQuoteSectionHeaderViewModel.swift */; };
 		723C4F582134E01E00BF16CA /* DashboardTableCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723C4F572134E01E00BF16CA /* DashboardTableCoordinator.swift */; };
 		723C4F632135023900BF16CA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723C4F622135023900BF16CA /* Constants.swift */; };
+		723C4F652135045700BF16CA /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723C4F642135045700BF16CA /* Date+Extensions.swift */; };
 		7244F8F32133D06B00D70AA0 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7244F8F22133D06B00D70AA0 /* LoginViewModel.swift */; };
 		72487D612133835C00751E11 /* Login.json in Resources */ = {isa = PBXBuildFile; fileRef = 72487D602133835C00751E11 /* Login.json */; };
 		725CFEF321328180004C60C7 /* Premiums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725CFEF221328180004C60C7 /* Premiums.swift */; };
@@ -197,6 +198,7 @@
 		723C4F552134D35D00BF16CA /* DashboardQuoteSectionHeaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardQuoteSectionHeaderViewModel.swift; sourceTree = "<group>"; };
 		723C4F572134E01E00BF16CA /* DashboardTableCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardTableCoordinator.swift; sourceTree = "<group>"; };
 		723C4F622135023900BF16CA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		723C4F642135045700BF16CA /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 		7244F8F22133D06B00D70AA0 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		72487D602133835C00751E11 /* Login.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Login.json; sourceTree = "<group>"; };
 		725CFEF221328180004C60C7 /* Premiums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Premiums.swift; sourceTree = "<group>"; };
@@ -414,6 +416,7 @@
 				72363B12213422FF008BB108 /* Error+Extensions.swift */,
 				72DA49FD2134354A00C70E5A /* UIImage+Extensions.swift */,
 				72DA4A012134400900C70E5A /* UIViewController+FabButton.swift */,
+				723C4F642135045700BF16CA /* Date+Extensions.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -1034,6 +1037,7 @@
 				72DA49FE2134354A00C70E5A /* UIImage+Extensions.swift in Sources */,
 				725CFF0D2132A30B004C60C7 /* Authorization.swift in Sources */,
 				725CFF132132A52A004C60C7 /* User.swift in Sources */,
+				723C4F652135045700BF16CA /* Date+Extensions.swift in Sources */,
 				723C4F522134D2FE00BF16CA /* DashboardQuoteSectionHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
