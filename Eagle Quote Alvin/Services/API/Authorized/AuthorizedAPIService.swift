@@ -25,14 +25,14 @@ class AuthorizedAPIService: AuthorizedAPIServiceType {
       search: nil,
       page: page,
       perPage: perPage,
-      sortBy: nil,
-      orderBy: nil)
+      sortBy: .date,
+      orderBy: .asc)
     )
       .map(QuotesResult.self, atKeyPath: "data")
       .asObservable()
   }
 
-  func searchQuotes(search: String, page: Int, perPage: Int, sortBy: String, orderBy: String) -> Observable<QuotesResult> {
+  func searchQuotes(search: String, page: Int, perPage: Int, sortBy: QuotesSortByType, orderBy: OrderByType) -> Observable<QuotesResult> {
     return provider.rx.request(.quotes(
       search: search,
       page: page,

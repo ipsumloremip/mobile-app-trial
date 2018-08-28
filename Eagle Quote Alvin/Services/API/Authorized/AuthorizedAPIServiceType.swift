@@ -14,7 +14,7 @@ protocol AuthorizedAPIServiceType {
   
   func fetchQuotes(page: Int, perPage: Int) -> Observable<QuotesResult>
   
-  func searchQuotes(search: String, page: Int, perPage: Int, sortBy: String, orderBy: String) -> Observable<QuotesResult>
+  func searchQuotes(search: String, page: Int, perPage: Int, sortBy: QuotesSortByType, orderBy: OrderByType) -> Observable<QuotesResult>
   
   func sendEmail(emailPayload: QuoteEmail) -> Observable<Void>
   

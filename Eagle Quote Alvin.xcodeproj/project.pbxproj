@@ -57,6 +57,7 @@
 		723C4F542134D30700BF16CA /* DashboardQuoteSectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 723C4F532134D30700BF16CA /* DashboardQuoteSectionHeaderView.xib */; };
 		723C4F562134D35D00BF16CA /* DashboardQuoteSectionHeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723C4F552134D35D00BF16CA /* DashboardQuoteSectionHeaderViewModel.swift */; };
 		723C4F582134E01E00BF16CA /* DashboardTableCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723C4F572134E01E00BF16CA /* DashboardTableCoordinator.swift */; };
+		723C4F632135023900BF16CA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723C4F622135023900BF16CA /* Constants.swift */; };
 		7244F8F32133D06B00D70AA0 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7244F8F22133D06B00D70AA0 /* LoginViewModel.swift */; };
 		72487D612133835C00751E11 /* Login.json in Resources */ = {isa = PBXBuildFile; fileRef = 72487D602133835C00751E11 /* Login.json */; };
 		725CFEF321328180004C60C7 /* Premiums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725CFEF221328180004C60C7 /* Premiums.swift */; };
@@ -195,6 +196,7 @@
 		723C4F532134D30700BF16CA /* DashboardQuoteSectionHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DashboardQuoteSectionHeaderView.xib; sourceTree = "<group>"; };
 		723C4F552134D35D00BF16CA /* DashboardQuoteSectionHeaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardQuoteSectionHeaderViewModel.swift; sourceTree = "<group>"; };
 		723C4F572134E01E00BF16CA /* DashboardTableCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardTableCoordinator.swift; sourceTree = "<group>"; };
+		723C4F622135023900BF16CA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		7244F8F22133D06B00D70AA0 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		72487D602133835C00751E11 /* Login.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Login.json; sourceTree = "<group>"; };
 		725CFEF221328180004C60C7 /* Premiums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Premiums.swift; sourceTree = "<group>"; };
@@ -403,6 +405,7 @@
 			isa = PBXGroup;
 			children = (
 				723C4F432134CE3A00BF16CA /* GenericTable */,
+				723C4F622135023900BF16CA /* Constants.swift */,
 				725CFF1D2132B216004C60C7 /* ScrollViewController.swift */,
 				72DA4A0D2134516400C70E5A /* ClassIdentifiable.swift */,
 				728EBEF6213395A800F13E10 /* UIColor+EagleQuote.swift */,
@@ -982,6 +985,7 @@
 				728EBEDE21337C4B00F13E10 /* AuthorizedAPIService.swift in Sources */,
 				725CFF1E2132B216004C60C7 /* ScrollViewController.swift in Sources */,
 				728EBEF12133937C00F13E10 /* FabButton.swift in Sources */,
+				723C4F632135023900BF16CA /* Constants.swift in Sources */,
 				728EBEF52133937C00F13E10 /* RoundedCornersButton.swift in Sources */,
 				728EBED32133717000F13E10 /* APIServiceType.swift in Sources */,
 				728EBEF7213395A800F13E10 /* UIColor+EagleQuote.swift in Sources */,

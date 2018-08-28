@@ -16,8 +16,8 @@ enum AuthorizedEagleQuoteAPI {
     search: String?,
     page: Int,
     perPage: Int,
-    sortBy: String?,
-    orderBy: String?
+    sortBy: QuotesSortByType,
+    orderBy: OrderByType
   )
 
   case sendEmail(
@@ -58,6 +58,8 @@ extension AuthorizedEagleQuoteAPI: TargetType {
       var params: [String: Any] = [:]
       params["page"] = page
       params["perPage"] = perPage
+      params["sortBy"] = sortBy.type
+      params["orderBy"] = orderBy.type
 
       return .requestParameters(
         parameters: params,
