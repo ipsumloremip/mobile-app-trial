@@ -52,7 +52,7 @@ class DashboardClientCellViewModel: DashboardClientCellViewModelType, DashboardC
     let _optionsTapped = PublishSubject<Void>()
     self.optionsTapped = _optionsTapped.asObserver()
 
-    let primaryClient = quote.clients.first(where: { $0.isPrimary })!
+    let primaryClient = quote.primaryClient
 
     self.iconImageName = Observable.just(primaryClient.isMale ? "icon-male" : "icon-female")
     self.name = Observable.just(primaryClient.name.capitalized)

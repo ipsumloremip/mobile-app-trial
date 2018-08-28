@@ -32,4 +32,8 @@ extension Quote {
     return createdAtDate.stringIn(dateStyle: .short, timeStyle: .none)
   }
   
+  var primaryClient: Client {
+    return clients.first(where: { $0.isPrimary })!
+  }
+  
 }
