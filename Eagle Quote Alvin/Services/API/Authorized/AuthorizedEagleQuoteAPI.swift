@@ -80,8 +80,9 @@ extension AuthorizedEagleQuoteAPI: TargetType {
   }
 
   var headers: [String: String]? {
-    // TODO
-    let token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbHZpbmpheWNvc2FyZUBnbWFpbC5jb20iLCJqdGkiOiI1OGU0YTdkOS0zZGM0LTRiNGUtYWJiOC1jZTM2YTA3NDhlNWMiLCJleHAiOjE1MzU1MjA1MTksImlzcyI6Imh0dHA6Ly9ibGFja2Zpbi50ZWNobm9sb2d5IiwiYXVkIjoiaHR0cDovL2JsYWNrZmluLnRlY2hub2xvZ3kifQ.kDkWV7-bpwO_r9KM2Sje5xW6T6YdKtGx6QetZzXdq04"
+    guard let token = UIApplication.shared.appDelegate.sessionService.token else {
+      return [:]
+    }
     return ["Authorization": "Bearer \(token)"]
   }
 
