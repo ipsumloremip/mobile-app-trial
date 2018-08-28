@@ -45,9 +45,16 @@ extension DashboardCoordinator {
   fileprivate func showActionSheet(for quote: Quote) {
     let ac = UIAlertController.actionSheet()
     ac.addAction(UIAlertAction(title: "Send Quote by Email", style: .default , handler:{  _ in
-      // TODO
+      self.showSendEmailPage(for: quote)
     }))
     self.window!.rootViewController!.present(ac, animated: true)
+  }
+  
+  fileprivate func showSendEmailPage(for quote: Quote) {
+    let sendEmailCoordinator = SendQuoteEmailCoordinator(window: window)
+    coordinate(to: sendEmailCoordinator)
+      .subscribe()
+      .disposed(by: disposeBag)
   }
   
 }
