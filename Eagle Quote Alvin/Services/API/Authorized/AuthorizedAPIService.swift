@@ -25,8 +25,8 @@ class AuthorizedAPIService: AuthorizedAPIServiceType {
       search: nil,
       page: page,
       perPage: perPage,
-      sortBy: .date,
-      orderBy: .asc)
+      sortBy: .firstName,
+      orderBy: .desc)
     )
       .map(QuotesResult.self, atKeyPath: "data")
       .asObservable()

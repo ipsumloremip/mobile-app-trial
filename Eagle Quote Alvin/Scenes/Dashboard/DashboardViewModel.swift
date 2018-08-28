@@ -120,7 +120,7 @@ class DashboardViewModel: DashboardViewModelType, DashboardViewModelInput, Dashb
         let sortedKeys = groupDict.keys.sorted(by: { d1, d2 in
           let df = DateFormatter()
           df.dateStyle = .short
-          return df.date(from: d1)! < df.date(from: d2)!
+          return df.date(from: d1)! > df.date(from: d2)!
         })
         
         return Array(sortedKeys.map { groupDict[$0] })
