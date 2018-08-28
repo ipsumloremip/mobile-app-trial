@@ -128,7 +128,7 @@ extension DummyData {
   struct Quote: StubbedModelType {
 
     let quoteId = 15101
-    let createdAt = "2018-08-24T07:40:43.6567811Z"
+    let createdAt = "2018-08-26T07:45:05.1538473"
     let clients = [DummyData.Client().object]
 
     var json: [String: Codable] {
