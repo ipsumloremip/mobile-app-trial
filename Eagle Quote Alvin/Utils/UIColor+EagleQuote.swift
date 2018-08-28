@@ -33,6 +33,8 @@ extension UIColor {
     
     static let accent = UIColor(netHex: 0x36BCBE)
     
+    static let lightestGray = UIColor(netHex: 0xF6F6F6)
+    
   }
   
 }
