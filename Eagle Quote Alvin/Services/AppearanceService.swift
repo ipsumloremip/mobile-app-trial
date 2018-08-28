@@ -10,12 +10,16 @@ import Foundation
 import UIKit
 
 import PluggableApplicationDelegate
+import SVProgressHUD
 
 class AppearanceService: NSObject, ApplicationService {
 
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]? = nil) -> Bool {
+    
     setupStatusBar()
     setupNavBar()
+    setupSVProgressHUDAppearance()
+    
     return true
   }
 
@@ -32,6 +36,10 @@ class AppearanceService: NSObject, ApplicationService {
     UINavigationBar.appearance().shouldCastShadow = true
   }
 
+  private func setupSVProgressHUDAppearance() {
+    SVProgressHUD.appearance().defaultMaskType = .black
+    SVProgressHUD.appearance().minimumDismissTimeInterval = 3.0
+  }
 
 }
 
