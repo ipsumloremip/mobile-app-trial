@@ -21,7 +21,15 @@ struct Quote: Codable {
 extension Quote {
   
   var createdAtDate: Date? {
-    return createdAt.date(inFormat: "yyyy-MM-dd'T'HH:mm:ss.SSSZZZZZ")
+    return createdAt.date(inFormat: "yyyy-MM-dd'T'HH:mm:ss.SSSSSS")
+  }
+  
+  var createdAtDateOnly: String? {
+    guard let createdAtDate = createdAtDate else {
+      return nil
+    }
+    
+    return createdAtDate.stringIn(dateStyle: .short, timeStyle: .none)
   }
   
 }

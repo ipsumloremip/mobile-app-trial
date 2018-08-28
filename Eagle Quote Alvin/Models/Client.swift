@@ -21,5 +21,12 @@ struct Client: Codable {
   let isPrimary: Bool
   let premiums: Premiums
   
+}
+
+extension Client {
+  
+  var isMale: Bool {
+    return gender == "M"
+  }
   
 }
