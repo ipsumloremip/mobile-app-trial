@@ -66,6 +66,7 @@
 		723C4F6A213530ED00BF16CA /* SideDrawerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723C4F69213530ED00BF16CA /* SideDrawerController.swift */; };
 		723C4F6C213530F400BF16CA /* SideDrawerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 723C4F6B213530F400BF16CA /* SideDrawerController.xib */; };
 		723C4F6E2135382600BF16CA /* SideDrawerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723C4F6D2135382600BF16CA /* SideDrawerViewModel.swift */; };
+		723C4F702135467D00BF16CA /* UIScrollView+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723C4F6F2135467C00BF16CA /* UIScrollView+Rx.swift */; };
 		7244F8F32133D06B00D70AA0 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7244F8F22133D06B00D70AA0 /* LoginViewModel.swift */; };
 		72487D612133835C00751E11 /* Login.json in Resources */ = {isa = PBXBuildFile; fileRef = 72487D602133835C00751E11 /* Login.json */; };
 		725CFEF321328180004C60C7 /* Premiums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725CFEF221328180004C60C7 /* Premiums.swift */; };
@@ -213,6 +214,7 @@
 		723C4F69213530ED00BF16CA /* SideDrawerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideDrawerController.swift; sourceTree = "<group>"; };
 		723C4F6B213530F400BF16CA /* SideDrawerController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SideDrawerController.xib; sourceTree = "<group>"; };
 		723C4F6D2135382600BF16CA /* SideDrawerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideDrawerViewModel.swift; sourceTree = "<group>"; };
+		723C4F6F2135467C00BF16CA /* UIScrollView+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Rx.swift"; sourceTree = "<group>"; };
 		7244F8F22133D06B00D70AA0 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		72487D602133835C00751E11 /* Login.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Login.json; sourceTree = "<group>"; };
 		725CFEF221328180004C60C7 /* Premiums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Premiums.swift; sourceTree = "<group>"; };
@@ -452,6 +454,7 @@
 				72DA49FD2134354A00C70E5A /* UIImage+Extensions.swift */,
 				72DA4A012134400900C70E5A /* UIViewController+FabButton.swift */,
 				723C4F642135045700BF16CA /* Date+Extensions.swift */,
+				723C4F6F2135467C00BF16CA /* UIScrollView+Rx.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -1073,6 +1076,7 @@
 				728EBED6213371C300F13E10 /* EagleQuoteAPI.swift in Sources */,
 				723C4F4F2134D1BA00BF16CA /* DashboardQuoteSectionViewModel.swift in Sources */,
 				723C4F4B2134CF2C00BF16CA /* GenericTableDataSource.swift in Sources */,
+				723C4F702135467D00BF16CA /* UIScrollView+Rx.swift in Sources */,
 				723C4F452134CEB600BF16CA /* CellRepresentable.swift in Sources */,
 				725CFEF321328180004C60C7 /* Premiums.swift in Sources */,
 				725CFF362132CD1F004C60C7 /* BaseCoordinator.swift in Sources */,
