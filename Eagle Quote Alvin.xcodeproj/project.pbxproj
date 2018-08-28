@@ -116,6 +116,7 @@
 		72DA4A08213444F400C70E5A /* DashboardClientCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA4A07213444F400C70E5A /* DashboardClientCell.swift */; };
 		72DA4A0A2134450E00C70E5A /* DashboardClientCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA4A092134450E00C70E5A /* DashboardClientCellViewModel.swift */; };
 		72DA4A0C2134455400C70E5A /* DashboardClientCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72DA4A0B2134455400C70E5A /* DashboardClientCell.xib */; };
+		72DA4A0E2134516400C70E5A /* ClassIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA4A0D2134516400C70E5A /* ClassIdentifiable.swift */; };
 		72F318DB21340BAE00AFC972 /* String+Validations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F318DA21340BAE00AFC972 /* String+Validations.swift */; };
 		DA8C35D342D1B6FAA117CC7A /* Pods_Eagle_Quote_Alvin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA1F953851AB9D585373A30 /* Pods_Eagle_Quote_Alvin.framework */; };
 /* End PBXBuildFile section */
@@ -250,6 +251,7 @@
 		72DA49FD2134354A00C70E5A /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
 		72DA49FF21343A6C00C70E5A /* AppearanceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearanceService.swift; sourceTree = "<group>"; };
 		72DA4A012134400900C70E5A /* UIViewController+FabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+FabButton.swift"; sourceTree = "<group>"; };
+		72DA4A0D2134516400C70E5A /* ClassIdentifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassIdentifiable.swift; sourceTree = "<group>"; };
 		72F318DA21340BAE00AFC972 /* String+Validations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Validations.swift"; sourceTree = "<group>"; };
 		797F9F2ACC67F4AFA3B5E635 /* Pods_Eagle_Quote_AlvinUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eagle_Quote_AlvinUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91FD0E9B2EC2DAD5CAA67D73 /* Pods-Eagle Quote Alvin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eagle Quote Alvin.release.xcconfig"; path = "Pods/Target Support Files/Pods-Eagle Quote Alvin/Pods-Eagle Quote Alvin.release.xcconfig"; sourceTree = "<group>"; };
@@ -366,6 +368,7 @@
 			children = (
 				723C4F432134CE3A00BF16CA /* GenericTable */,
 				725CFF1D2132B216004C60C7 /* ScrollViewController.swift */,
+				72DA4A0D2134516400C70E5A /* ClassIdentifiable.swift */,
 				728EBEF6213395A800F13E10 /* UIColor+EagleQuote.swift */,
 				72F318DA21340BAE00AFC972 /* String+Validations.swift */,
 				72363B1021341A4B008BB108 /* UIAlertController+Extensions.swift */,
@@ -923,6 +926,7 @@
 				72DA4A0021343A6C00C70E5A /* AppearanceService.swift in Sources */,
 				72DA49F82134310C00C70E5A /* DashboardCoordinator.swift in Sources */,
 				72C4A4D421325DDA005383F0 /* AppDelegate.swift in Sources */,
+				72DA4A08213444F400C70E5A /* DashboardClientCell.swift in Sources */,
 				723C4F4D2134CF4600BF16CA /* GenericTableDelegate.swift in Sources */,
 				725EAD4521327801000F4676 /* AccessToken.swift in Sources */,
 				728EBEF42133937C00F13E10 /* RoundedCornersProtocol.swift in Sources */,
