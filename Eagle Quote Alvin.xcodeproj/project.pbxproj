@@ -63,6 +63,9 @@
 		723C4F632135023900BF16CA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723C4F622135023900BF16CA /* Constants.swift */; };
 		723C4F652135045700BF16CA /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723C4F642135045700BF16CA /* Date+Extensions.swift */; };
 		723C4F6721351C2800BF16CA /* SendQuoteEmailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723C4F6621351C2800BF16CA /* SendQuoteEmailViewModel.swift */; };
+		723C4F6A213530ED00BF16CA /* SideDrawerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723C4F69213530ED00BF16CA /* SideDrawerController.swift */; };
+		723C4F6C213530F400BF16CA /* SideDrawerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 723C4F6B213530F400BF16CA /* SideDrawerController.xib */; };
+		723C4F6E2135382600BF16CA /* SideDrawerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723C4F6D2135382600BF16CA /* SideDrawerViewModel.swift */; };
 		7244F8F32133D06B00D70AA0 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7244F8F22133D06B00D70AA0 /* LoginViewModel.swift */; };
 		72487D612133835C00751E11 /* Login.json in Resources */ = {isa = PBXBuildFile; fileRef = 72487D602133835C00751E11 /* Login.json */; };
 		725CFEF321328180004C60C7 /* Premiums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725CFEF221328180004C60C7 /* Premiums.swift */; };
@@ -207,6 +210,9 @@
 		723C4F622135023900BF16CA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		723C4F642135045700BF16CA /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 		723C4F6621351C2800BF16CA /* SendQuoteEmailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendQuoteEmailViewModel.swift; sourceTree = "<group>"; };
+		723C4F69213530ED00BF16CA /* SideDrawerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideDrawerController.swift; sourceTree = "<group>"; };
+		723C4F6B213530F400BF16CA /* SideDrawerController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SideDrawerController.xib; sourceTree = "<group>"; };
+		723C4F6D2135382600BF16CA /* SideDrawerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideDrawerViewModel.swift; sourceTree = "<group>"; };
 		7244F8F22133D06B00D70AA0 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		72487D602133835C00751E11 /* Login.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Login.json; sourceTree = "<group>"; };
 		725CFEF221328180004C60C7 /* Premiums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Premiums.swift; sourceTree = "<group>"; };
@@ -413,6 +419,16 @@
 			path = SendQuoteEmail;
 			sourceTree = "<group>";
 		};
+		723C4F68213530D700BF16CA /* SideDrawer */ = {
+			isa = PBXGroup;
+			children = (
+				723C4F69213530ED00BF16CA /* SideDrawerController.swift */,
+				723C4F6D2135382600BF16CA /* SideDrawerViewModel.swift */,
+				723C4F6B213530F400BF16CA /* SideDrawerController.xib */,
+			);
+			path = SideDrawer;
+			sourceTree = "<group>";
+		};
 		72487D5F2133832700751E11 /* StubbedResponses */ = {
 			isa = PBXGroup;
 			children = (
@@ -455,6 +471,7 @@
 		725CFF2D2132CC0D004C60C7 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				723C4F68213530D700BF16CA /* SideDrawer */,
 				725CFF2E2132CC20004C60C7 /* Login */,
 				72DA49F6213430E700C70E5A /* Dashboard */,
 				723C4F5B2134FF6100BF16CA /* SendQuoteEmail */,
@@ -851,6 +868,7 @@
 				7230CBD82132659E000176D5 /* SFText-Semibold.otf in Resources */,
 				7230CBD92132659E000176D5 /* SFText-SemiboldItalic.otf in Resources */,
 				72C4A4DE21325DDA005383F0 /* LaunchScreen.storyboard in Resources */,
+				723C4F6C213530F400BF16CA /* SideDrawerController.xib in Resources */,
 				72C4A4DB21325DDA005383F0 /* Assets.xcassets in Resources */,
 				728EBEE2213383D500F13E10 /* Quotes.json in Resources */,
 			);
@@ -1015,6 +1033,7 @@
 				728EBEF12133937C00F13E10 /* FabButton.swift in Sources */,
 				723C4F632135023900BF16CA /* Constants.swift in Sources */,
 				728EBEF52133937C00F13E10 /* RoundedCornersButton.swift in Sources */,
+				723C4F6A213530ED00BF16CA /* SideDrawerController.swift in Sources */,
 				728EBED32133717000F13E10 /* APIServiceType.swift in Sources */,
 				728EBEF7213395A800F13E10 /* UIColor+EagleQuote.swift in Sources */,
 				728EBEDA213377BF00F13E10 /* AuthorizedAPIServiceType.swift in Sources */,
@@ -1067,6 +1086,7 @@
 				725CFF132132A52A004C60C7 /* User.swift in Sources */,
 				723C4F652135045700BF16CA /* Date+Extensions.swift in Sources */,
 				723C4F522134D2FE00BF16CA /* DashboardQuoteSectionHeaderView.swift in Sources */,
+				723C4F6E2135382600BF16CA /* SideDrawerViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
