@@ -65,4 +65,9 @@ extension SessionService {
     self.token = authorization.token
   }
   
+  func logout() {
+    self.user = nil
+    self.token = nil
+  }
+  
 }
