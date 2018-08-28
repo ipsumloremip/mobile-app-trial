@@ -12,6 +12,7 @@ target 'Eagle Quote Alvin' do
   pod 'MaterialComponents/Buttons'
   pod 'UITextView+Placeholder'
   pod 'KSTokenView'
+  pod 'SVProgressHUD'
   
   # Rx
   pod 'RxCocoa'
