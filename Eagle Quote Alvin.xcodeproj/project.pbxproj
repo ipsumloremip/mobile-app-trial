@@ -57,6 +57,9 @@
 		723C4F542134D30700BF16CA /* DashboardQuoteSectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 723C4F532134D30700BF16CA /* DashboardQuoteSectionHeaderView.xib */; };
 		723C4F562134D35D00BF16CA /* DashboardQuoteSectionHeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723C4F552134D35D00BF16CA /* DashboardQuoteSectionHeaderViewModel.swift */; };
 		723C4F582134E01E00BF16CA /* DashboardTableCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723C4F572134E01E00BF16CA /* DashboardTableCoordinator.swift */; };
+		723C4F5D2134FF7900BF16CA /* SendQuoteEmailCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723C4F5C2134FF7900BF16CA /* SendQuoteEmailCoordinator.swift */; };
+		723C4F5F2134FFAC00BF16CA /* SendQuoteEmailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723C4F5E2134FFAC00BF16CA /* SendQuoteEmailController.swift */; };
+		723C4F612134FFB400BF16CA /* SendQuoteEmailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 723C4F602134FFB400BF16CA /* SendQuoteEmailController.xib */; };
 		723C4F632135023900BF16CA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723C4F622135023900BF16CA /* Constants.swift */; };
 		723C4F652135045700BF16CA /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723C4F642135045700BF16CA /* Date+Extensions.swift */; };
 		7244F8F32133D06B00D70AA0 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7244F8F22133D06B00D70AA0 /* LoginViewModel.swift */; };
@@ -197,6 +200,9 @@
 		723C4F532134D30700BF16CA /* DashboardQuoteSectionHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DashboardQuoteSectionHeaderView.xib; sourceTree = "<group>"; };
 		723C4F552134D35D00BF16CA /* DashboardQuoteSectionHeaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardQuoteSectionHeaderViewModel.swift; sourceTree = "<group>"; };
 		723C4F572134E01E00BF16CA /* DashboardTableCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardTableCoordinator.swift; sourceTree = "<group>"; };
+		723C4F5C2134FF7900BF16CA /* SendQuoteEmailCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendQuoteEmailCoordinator.swift; sourceTree = "<group>"; };
+		723C4F5E2134FFAC00BF16CA /* SendQuoteEmailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendQuoteEmailController.swift; sourceTree = "<group>"; };
+		723C4F602134FFB400BF16CA /* SendQuoteEmailController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SendQuoteEmailController.xib; sourceTree = "<group>"; };
 		723C4F622135023900BF16CA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		723C4F642135045700BF16CA /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 		7244F8F22133D06B00D70AA0 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
@@ -394,6 +400,16 @@
 			path = Header;
 			sourceTree = "<group>";
 		};
+		723C4F5B2134FF6100BF16CA /* SendQuoteEmail */ = {
+			isa = PBXGroup;
+			children = (
+				723C4F5C2134FF7900BF16CA /* SendQuoteEmailCoordinator.swift */,
+				723C4F5E2134FFAC00BF16CA /* SendQuoteEmailController.swift */,
+				723C4F602134FFB400BF16CA /* SendQuoteEmailController.xib */,
+			);
+			path = SendQuoteEmail;
+			sourceTree = "<group>";
+		};
 		72487D5F2133832700751E11 /* StubbedResponses */ = {
 			isa = PBXGroup;
 			children = (
@@ -438,6 +454,7 @@
 			children = (
 				725CFF2E2132CC20004C60C7 /* Login */,
 				72DA49F6213430E700C70E5A /* Dashboard */,
+				723C4F5B2134FF6100BF16CA /* SendQuoteEmail */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -822,6 +839,7 @@
 				7230CBD32132659E000176D5 /* SFText-LightItalic.otf in Resources */,
 				7230CBD42132659E000176D5 /* SFText-Medium.otf in Resources */,
 				72487D612133835C00751E11 /* Login.json in Resources */,
+				723C4F612134FFB400BF16CA /* SendQuoteEmailController.xib in Resources */,
 				72DA49FC2134317200C70E5A /* DashboardController.xib in Resources */,
 				7230CBD52132659E000176D5 /* SFText-MediumItalic.otf in Resources */,
 				7230CBD62132659E000176D5 /* SFText-Regular.otf in Resources */,
@@ -997,7 +1015,9 @@
 				7244F8F32133D06B00D70AA0 /* LoginViewModel.swift in Sources */,
 				72DA4A0021343A6C00C70E5A /* AppearanceService.swift in Sources */,
 				72DA49F82134310C00C70E5A /* DashboardCoordinator.swift in Sources */,
+				723C4F5F2134FFAC00BF16CA /* SendQuoteEmailController.swift in Sources */,
 				72C4A4D421325DDA005383F0 /* AppDelegate.swift in Sources */,
+				723C4F5D2134FF7900BF16CA /* SendQuoteEmailCoordinator.swift in Sources */,
 				72DA4A08213444F400C70E5A /* DashboardClientCell.swift in Sources */,
 				723C4F4D2134CF4600BF16CA /* GenericTableDelegate.swift in Sources */,
 				725EAD4521327801000F4676 /* AccessToken.swift in Sources */,
