@@ -19,4 +19,10 @@ extension UIAlertController {
     return ac
   }
   
+  static func actionSheet(title: String? = nil, message: String? = nil) -> UIAlertController {
+    let ac = UIAlertController(title: title, message: message, preferredStyle: .actionSheet)
+    ac.addAction(UIAlertAction(title: "Cancel", style: .cancel))
+    return ac
+  }
+  
 }
