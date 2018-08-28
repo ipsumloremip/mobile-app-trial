@@ -15,11 +15,11 @@ import SVProgressHUD
 class AppearanceService: NSObject, ApplicationService {
 
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]? = nil) -> Bool {
-    
+
     setupStatusBar()
     setupNavBar()
     setupSVProgressHUDAppearance()
-    
+
     return true
   }
 
@@ -34,6 +34,8 @@ class AppearanceService: NSObject, ApplicationService {
     UINavigationBar.appearance().titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white]
 
     UINavigationBar.appearance().shouldCastShadow = true
+
+    UIBarButtonItem.appearance().setTitleTextAttributes([NSAttributedStringKey.foregroundColor: UIColor.clear], for: .normal)
   }
 
   private func setupSVProgressHUDAppearance() {
